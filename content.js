@@ -1,29 +1,29 @@
 window.PAVILLON_DATA = {
   personnages: [
     {
-      nom: "Anduin",
-      joueur: "À compléter",
-      role: "Personnage",
-      resume: "Résumé du personnage à ajouter."
-    },
-    {
-      nom: "Aldry",
-      joueur: "À compléter",
-      role: "Personnage",
-      resume: "Résumé du personnage à ajouter."
-    },
-    {
-      nom: "Solenn",
-      joueur: "À compléter",
-      role: "Personnage",
-      resume: "Résumé du personnage à ajouter."
-    },
-    {
-      nom: "Baron Bayard",
-      joueur: "À compléter",
-      role: "Personnage",
-      resume: "Résumé du personnage à ajouter."
-    },
+  nom: "Solenn Brissac",
+  joueur: "À compléter",
+  role: "Chirurgienne du Saint-Michel",
+  resume: "Originaire de Brest et surnommée « la Lame de Rhum », Solenn est une chirurgienne talentueuse aux méthodes parfois peu orthodoxes. Amatrice de jeu et de spiritueux, elle voyage avec son perroquet Ratafia."
+},
+{
+  nom: "Baron Bayard",
+  joueur: "À compléter",
+  role: "Aspirant de marine",
+  resume: "Baron Jean Nicholas Marie de Paladru est un jeune noble de l'Isère envoyé dans la marine après une jeunesse turbulente. Il rêve secrètement d'aventure et de liberté."
+},
+{
+  nom: "Anduin Marleau",
+  joueur: "À compléter",
+  role: "Aspirant canonnier",
+  resume: "Originaire de Nantes et issu d'une famille pauvre, Anduin a appris à lire et rêve depuis l'enfance de grandes batailles navales. Il souhaite devenir canonnier et cache aux autres qu'il n'a que 17 ans."
+},
+{
+  nom: "Aldry Barat",
+  joueur: "À compléter",
+  role: "Gabier",
+  resume: "Âgé de 21 ans, Aldry possède déjà une expérience de la mer. Spécialisé dans les manœuvres des voiles, il connaît déjà un peu Bayard au début de l'aventure."
+},
     {
       nom: "Ralenn",
       joueur: "Ralenn",
