@@ -47,12 +47,12 @@ window.PAVILLON_DATA = {
     }
   ],
 
-  sessions: [
-    {
-      numero: "Session 01",
-      date: "À venir",
-      titre: "Première entrée du journal",
-      resume: "Le résumé sera ajouté à partir de la transcription du stream."
-    }
-  ]
+ sessions: [
+  {
+    numero: "Session 01",
+    date: "6 septembre 2026",
+    titre: "Le premier départ",
+    resume: "À quelques jours du départ du Saint-Michel pour la Guadeloupe, Solenn Brissac, Baron Bayard, Anduin Marleau et Aldry Barat sont chargés de retrouver Dorak Mojomeurs, le pilote du navire, disparu depuis la veille. Ce qui devait être une simple recherche les mène de tavernes en cachots, puis au cœur d'une bagarre générale pour récupérer un mystérieux carnet de navigation. Deux jours plus tard, leur mission accomplie, les quatre compagnons quittent enfin Saint-Malo à bord du Saint-Michel."
+  }
+]
 };
