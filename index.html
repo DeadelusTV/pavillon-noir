@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Carnet de campagne Pavillon Noir : personnages, lore et journal de bord." />
+  <title>Pavillon Noir — Carnet de campagne</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#accueil" aria-label="Accueil Pavillon Noir">
+        <span class="brand-mark">✦</span>
+        <span>
+          <strong>Pavillon Noir</strong>
+          <small>Carnet de campagne</small>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">☰</button>
+      <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
+        <a href="#accueil">Accueil</a>
+        <a href="#personnages">Équipage</a>
+        <a href="#lore">Lore</a>
+        <a href="#sessions">Journal de bord</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero section">
+      <div class="hero-content parchment">
+        <p class="eyebrow">Chroniques d'une campagne JDR</p>
+        <h1>Pavillon Noir</h1>
+        <p class="hero-copy">
+          Les personnages, les découvertes, les alliances douteuses et les décisions
+          objectivement catastrophiques consignées au même endroit.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#sessions">Lire le journal de bord</a>
+          <a class="btn ghost" href="#personnages">Voir l'équipage</a>
+        </div>
+      </div>
+
+      <aside class="latest-card wood-panel" aria-label="Dernière session">
+        <span class="panel-label">Dernière entrée</span>
+        <h2 id="latest-session-title">Session à venir</h2>
+        <p id="latest-session-summary">
+          Le journal attend sa première transcription. Pour une fois, le silence est encore une donnée exploitable.
+        </p>
+        <a href="#sessions" class="text-link">Ouvrir le journal →</a>
+      </aside>
+    </section>
+
+    <section id="personnages" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Personnages</p>
+        <h2>L'équipage</h2>
+        <p>Les fiches restent volontairement sobres tant que les informations réelles ne sont pas ajoutées.</p>
+      </div>
+      <div id="character-grid" class="card-grid"></div>
+    </section>
+
+    <section id="lore" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Univers</p>
+        <h2>Lore & repères</h2>
+        <p>Un espace pour ranger le monde avant que les joueurs ne le transforment en archive judiciaire.</p>
+      </div>
+      <div id="lore-grid" class="lore-grid"></div>
+    </section>
+
+    <section id="sessions" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Journal de bord</p>
+        <h2>Sessions</h2>
+        <p>Chaque compte rendu pourra être alimenté à partir de la transcription du stream.</p>
+      </div>
+      <div id="session-list" class="timeline"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Pavillon Noir — carnet non officiel de campagne.</p>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
