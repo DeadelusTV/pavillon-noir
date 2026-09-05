@@ -251,14 +251,36 @@ window.PAVILLON_DATA = {
       imageFinAlt: "Illustration portuaire utilisée au moment du départ du Saint-Michel",
       resumeCourt: "À quelques jours du départ du Saint-Michel pour la Guadeloupe, Solenn Brissac, Baron Bayard, Anduin Marleau et Aldry Barat sont chargés de retrouver Dorak Mojomeurs, le pilote du navire, disparu depuis la veille. Leur recherche les mène de tavernes en cachots, puis au cœur d'une bagarre générale pour récupérer un mystérieux carnet de navigation.",
       resumeDetaille: [
-        "L'aventure débute à Saint-Malo en 1715. Solenn Brissac, Baron Bayard, Anduin Marleau et Aldry Barat se retrouvent liés au même navire marchand, le Saint-Michel, dont le départ pour la Guadeloupe est prévu dans les jours suivants.",
-        "Leur première mission commune paraît simple : Dorak Mojomeurs, le pilote du navire, est introuvable. Une voisine les oriente vers L'Ancre ensablée, où Dorak a passé la soirée à jouer aux cartes avant de repartir seul. Des témoins évoquent ensuite une altercation dans la rue et l'intervention de la garde.",
-        "Le groupe retrouve finalement Dorak dans les cachots de Saint-Malo. Bayard convainc les gardes de les laisser le voir, puis l'armateur règle sa caution. Blessé d'un coup de dague au ventre, Dorak reçoit les soins de Solenn.",
-        "Dorak révèle alors qu'un ancien carnet de navigation lui a été dérobé. Il l'aurait remporté aux cartes face à Thomas Nova Brux, un autre pilote qui l'accusait de tricher. Pour Dorak, le carnet vaut davantage que l'argent également volé.",
-        "Le groupe accompagne Dorak de taverne en taverne jusqu'à retrouver Nova Brux. La confrontation dégénère rapidement. Une querelle parallèle autour d'une bière subtilisée par Solenn finit de transformer la salle en bagarre générale.",
-        "Pendant le chaos, Aldry détourne l'attention et récupère le carnet sur Nova Brux. Bayard impose ensuite son autorité à toute la salle par une intimidation spectaculaire, ce qui permet au groupe de sortir de la situation sans tuer personne.",
-        "La soirée se termine de manière beaucoup plus amicale. Dorak récupère son carnet et sympathise avec le groupe. Deux jours plus tard, le Saint-Michel quitte enfin Saint-Malo. Chacun prend son poste à bord et le navire met le cap vers les Indes occidentales."
-      ],
+  "L’aventure débute à Saint-Malo en 1715, l’un des grands ports français ouverts sur le commerce maritime et les voyages vers les colonies. C’est là que quatre futurs compagnons se retrouvent liés au même navire marchand, le Saint-Michel, dont le départ pour la Guadeloupe est prévu dans les jours suivants.",
+
+  "Le groupe réunit Solenn Brissac, chirurgienne originaire de Brest ; Baron Bayard, jeune noble envoyé dans la marine ; Anduin Marleau, Nantais rêvant de devenir canonnier ; et Aldry Barat, marin ayant déjà une expérience en mer et spécialisé comme gabier. Ils se connaissent encore peu lorsque le quartier-maître du Saint-Michel leur confie leur première tâche commune : Dorak Mojomeurs, le pilote du navire, est introuvable, alors que le capitaine attend son retour à bord.",
+
+  "Le groupe commence par se rendre chez Dorak. Une voisine leur apprend qu’il n’est pas rentré la nuit précédente et qu’il avait l’habitude de fréquenter L’Ancre ensablée, une importante taverne du port. Sur place, ils découvrent que Dorak y a passé une partie de la soirée à jouer aux cartes avant de repartir seul. Des témoins signalent ensuite une altercation dans la rue, interrompue par la garde.",
+
+  "La piste mène donc aux cachots de Saint-Malo. Dorak y est effectivement détenu, notamment pour duel et port d’arme illicite. Bayard parvient à convaincre le garde de les laisser accéder au prisonnier, et l’armateur du Saint-Michel accepte ensuite de régler sa caution. Dorak est toutefois blessé d’un coup de dague au ventre. Solenn lui prodigue les premiers soins, suffisamment efficacement pour lui permettre de repartir avec le groupe, même si le repos reste conseillé.",
+
+  "Dorak révèle alors que ses ennuis ne se limitent pas à une mauvaise soirée. La veille, il aurait remporté aux cartes une importante somme d’argent, mais surtout un ancien carnet de navigation. Son adversaire, Thomas Nova Brux, un autre pilote, l’aurait accusé de tricher. Plus tard dans la nuit, Dorak aurait été attaqué par plusieurs hommes et dépouillé de son argent, de ses armes et du précieux carnet. Pour lui, ce dernier compte bien davantage que l’argent perdu.",
+
+  "Le carnet aurait appartenu à un navigateur du siècle précédent et contient des informations détaillées sur différentes régions maritimes, notamment des descriptions techniques utiles à la navigation. Le groupe comprend rapidement qu’il s’agit d’un document précieux, même si son contenu est trop spécialisé pour être immédiatement exploitable par eux.",
+
+  "Dorak entraîne alors les quatre compagnons dans une tournée des tavernes à la recherche de Nova Brux. Le trajet se révèle légèrement plus long que prévu, notamment parce que Solenn considère manifestement chaque débit de boisson comme une étape médicale indispensable. Finalement, Dorak reconnaît son adversaire dans une taverne particulièrement animée. La confrontation ne tarde pas.",
+
+  "Dorak attaque Nova Brux, tandis que Bayard tente de régler la situation par l’intimidation. Le calme ne dure guère : une altercation distincte autour d’un verre subtilisé par Solenn finit par précipiter toute la salle dans une bagarre générale. Solenn tente notamment de fracasser un verre sur l’un des clients, rate son geste et termine projetée contre une table, avec une blessure légère.",
+
+  "Profitant du chaos, Aldry détourne l’attention et réussit à subtiliser à Nova Brux le carnet recherché. Bayard prend ensuite le contrôle de la situation par une intimidation particulièrement spectaculaire, suffisamment efficace pour faire reculer les hommes de Nova Brux et calmer pratiquement toute la taverne. Le carnet est récupéré sans qu’aucun membre du groupe n’ait besoin de tuer qui que ce soit, ce qui constitue déjà un bilan étonnamment respectable pour leur première soirée ensemble.",
+
+  "La tension retombée, la soirée se poursuit dans une ambiance bien plus festive. Dorak se montre rapidement sympathique malgré son tempérament de grande gueule et partage avec eux plusieurs histoires de marin. Solenn finit même en meilleurs termes avec Chad et Accra, les deux clients impliqués dans sa petite affaire de bière. Dorak récupère finalement son carnet.",
+
+  "Deux jours passent ensuite sans incident majeur. Puis vient enfin le départ.",
+
+  "Au petit matin, les quatre compagnons découvrent une dernière fois le Saint-Michel depuis le quai avant d’embarquer. Le bâtiment marchand est une flûte d’environ cinquante mètres, avec un équipage approchant la centaine de personnes. Dès les premières manœuvres, chacun prend sa place : Aldry et Anduin participent aux tâches nautiques, Bayard relaie les ordres aux marins, tandis que Solenn dispose de sa propre infirmerie et reste disponible en permanence pour les éventuels blessés.",
+
+  "Ils rencontrent également le capitaine Danny De Pingui, ancien premier lieutenant de la Marine royale, qui a participé financièrement à l’armement du navire. Son expérience militaire laisse présager une discipline particulièrement rigoureuse à bord.",
+
+  "À la fin de la session, le Saint-Michel prend le large. Saint-Malo disparaît derrière eux et l’équipage met le cap vers les Indes occidentales.",
+
+  "L’aventure commence réellement ici."
+],
       evenements: [
         "Formation du groupe autour du Saint-Michel",
         "Disparition puis recherche de Dorak Mojomeurs",
