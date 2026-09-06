@@ -42,14 +42,16 @@ window.PAVILLON_COULISSES = {
   "illustrations": [
     {
       "titre": "Saint-Malo",
-      "image": "assets/saint-malo-session-01.png",
-      "legende": "Illustration utilisée pendant la Session 01."
+      "image": "assets/saint-malo-session-01.png"
     },
     {
       "titre": "Le départ",
       "image": "assets/depart-saint-michel-session-01.png",
-      "imageCrop": true,
-      "legende": "Illustration utilisée au moment du départ du Saint-Michel."
+      "imageCrop": true
+    },
+    {
+      "titre": "Bataille navale",
+      "image": "assets/bataille.png"
     }
   ]
 };
