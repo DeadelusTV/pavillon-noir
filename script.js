@@ -29,10 +29,9 @@ const characterImageById = {
 
 const characterImage = (p) => p.image || characterImageById[p.id] || "";
 
-const imageFigure = (src, alt, caption, crop = false, extraClass = "") => `
+const imageFigure = (src, alt, _caption, crop = false, extraClass = "") => `
   <figure class="campaign-image ${crop ? "campaign-image--crop" : ""} ${extraClass}">
     <img src="${escapeHtml(src)}" alt="${escapeHtml(alt || "Illustration de campagne")}" loading="lazy" />
-    ${caption ? `<figcaption>${escapeHtml(caption)}</figcaption>` : ""}
   </figure>
 `;
 
@@ -282,7 +281,6 @@ function renderPersonnage(p) {
         ${characterImage(p)
           ? `<figure class="character-sheet">
               <img src="${escapeHtml(characterImage(p))}" alt="Fiche illustrée de ${escapeHtml(p.nom)}" />
-              <figcaption>Illustration utilisée pendant la campagne.</figcaption>
             </figure>`
           : `<div class="avatar avatar--large" aria-hidden="true">${initials(p.nom)}</div>`}
         <div class="character-hero-copy">
