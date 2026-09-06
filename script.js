@@ -21,10 +21,10 @@ const initials = (name) => name
 const byId = (collection, id) => collection.find(item => item.id === id);
 
 const characterImageById = {
-  "solenn-brissac": "assets/personnages/solenn-brissac.png",
-  "baron-bayard": "assets/personnages/baron-bayard.png",
-  "anduin-marleau": "assets/personnages/anduin-marleau.png",
-  "aldry-barat": "assets/personnages/aldry-barat.png"
+  "solenn-brissac": "assets/solenn-brissac.png",
+  "baron-bayard": "assets/baron-bayard.png",
+  "anduin-marleau": "assets/anduin-marleau.png",
+  "aldry-barat": "assets/aldry-barat.png"
 };
 
 const characterImage = (p) => p.image || characterImageById[p.id] || "";
