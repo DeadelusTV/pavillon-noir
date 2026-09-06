@@ -169,7 +169,7 @@ function renderSessions() {
       <div class="session-grid">
         ${data.sessions.map(session => `
           <article class="session-card">
-            <div class="session-card-image"><img src="${escapeHtml(session.image)}" alt="" loading="lazy" /></div>
+            ${session.image ? `<div class="session-card-image"><img src="${escapeHtml(session.image)}" alt="" loading="lazy" /></div>` : ""}
             <div class="session-card-body">
               <span class="role">${escapeHtml(session.numero)}</span>
               <h2>${escapeHtml(session.titre)}</h2>
@@ -196,7 +196,7 @@ function renderSession(session) {
         <p class="lede">${escapeHtml(session.resumeCourt)}</p>
       </header>
 
-      ${imageFigure(session.image, session.imageAlt, "Illustration utilisée pendant la session.")}
+      ${session.image ? imageFigure(session.image, session.imageAlt || "", "Illustration utilisée pendant la session.") : ""}
 
       <div class="article-layout">
         <article class="prose-panel">
@@ -231,14 +231,16 @@ function renderSession(session) {
         <div class="note-panel">${session.coulisses.map(item => `<p>${escapeHtml(item)}</p>`).join("")}</div>
       </section>
 
-      <section class="subsection">
-        <div class="section-heading">
-          <p class="eyebrow">Fin de session</p>
-          <h2>Le grand départ</h2>
-          <p>Deux jours plus tard, le Saint-Michel quitte Saint-Malo pour les Indes occidentales.</p>
-        </div>
-        ${imageFigure(session.imageFin, session.imageFinAlt, "Illustration utilisée au moment du départ du Saint-Michel.", true)}
-      </section>
+      ${(session.finTitre || session.finTexte || session.imageFin) ? `
+        <section class="subsection">
+          <div class="section-heading">
+            <p class="eyebrow">Fin de session</p>
+            ${session.finTitre ? `<h2>${escapeHtml(session.finTitre)}</h2>` : ""}
+            ${session.finTexte ? `<p>${escapeHtml(session.finTexte)}</p>` : ""}
+          </div>
+          ${session.imageFin ? imageFigure(session.imageFin, session.imageFinAlt || "", "Illustration utilisée pendant la session.", true) : ""}
+        </section>
+      ` : ""}
     </section>
   `;
 }
