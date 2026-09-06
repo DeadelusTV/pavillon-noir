@@ -203,6 +203,15 @@ function renderSession(session) {
           <h2>Résumé</h2>
           ${session.resumeDetaille.map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join("")}
 
+          ${session.imageBataille
+            ? imageFigure(
+                session.imageBataille,
+                session.imageBatailleAlt || "Illustration d'ambiance d'une bataille navale",
+                "Illustration d'ambiance de l'affrontement naval.",
+                false
+              )
+            : ""}
+
           <h2>Événements majeurs</h2>
           <ol class="event-list">${session.evenements.map(event => `<li>${escapeHtml(event)}</li>`).join("")}</ol>
         </article>
