@@ -20,6 +20,15 @@ const initials = (name) => name
 
 const byId = (collection, id) => collection.find(item => item.id === id);
 
+const characterImageById = {
+  "solenn-brissac": "assets/personnages/solenn-brissac.png",
+  "baron-bayard": "assets/personnages/baron-bayard.png",
+  "anduin-marleau": "assets/personnages/anduin-marleau.png",
+  "aldry-barat": "assets/personnages/aldry-barat.png"
+};
+
+const characterImage = (p) => p.image || characterImageById[p.id] || "";
+
 const imageFigure = (src, alt, caption, crop = false, extraClass = "") => `
   <figure class="campaign-image ${crop ? "campaign-image--crop" : ""} ${extraClass}">
     <img src="${escapeHtml(src)}" alt="${escapeHtml(alt || "Illustration de campagne")}" loading="lazy" />
@@ -39,16 +48,23 @@ const breadcrumb = (items) => `
   </nav>
 `;
 
-const personCard = (p) => `
-  <article class="entity-card">
-    <div class="avatar" aria-hidden="true">${initials(p.nom)}</div>
-    <span class="role">${escapeHtml(p.role)}</span>
-    <h3>${escapeHtml(p.nom)}</h3>
-    ${p.surnom ? `<p class="entity-subtitle">« ${escapeHtml(p.surnom)} »</p>` : ""}
-    <p>${escapeHtml(p.resume)}</p>
-    <a class="card-link" href="#personnage-${p.id}">Voir la fiche <span aria-hidden="true">→</span></a>
-  </article>
-`;
+const personCard = (p) => {
+  const image = characterImage(p);
+  return `
+    <article class="entity-card character-card">
+      ${image
+        ? `<div class="character-card-media"><img src="${escapeHtml(image)}" alt="Illustration de ${escapeHtml(p.nom)}" loading="lazy" /></div>`
+        : `<div class="avatar" aria-hidden="true">${initials(p.nom)}</div>`}
+      <div class="character-card-body">
+        <span class="role">${escapeHtml(p.role)}</span>
+        <h3>${escapeHtml(p.nom)}</h3>
+        ${p.surnom ? `<p class="entity-subtitle">« ${escapeHtml(p.surnom)} »</p>` : ""}
+        <p>${escapeHtml(p.resume)}</p>
+        <a class="card-link" href="#personnage-${p.id}">Voir la fiche <span aria-hidden="true">→</span></a>
+      </div>
+    </article>
+  `;
+};
 
 const pnjCard = (p) => `
   <article class="entity-card entity-card--compact">
@@ -252,8 +268,13 @@ function renderPersonnage(p) {
     <section class="detail-page section">
       ${breadcrumb([{ label: "Équipage", href: "#equipage" }, { label: p.nom }])}
       <header class="character-hero">
-        <div class="avatar avatar--large" aria-hidden="true">${initials(p.nom)}</div>
-        <div>
+        ${characterImage(p)
+          ? `<figure class="character-sheet">
+              <img src="${escapeHtml(characterImage(p))}" alt="Fiche illustrée de ${escapeHtml(p.nom)}" />
+              <figcaption>Illustration utilisée pendant la campagne.</figcaption>
+            </figure>`
+          : `<div class="avatar avatar--large" aria-hidden="true">${initials(p.nom)}</div>`}
+        <div class="character-hero-copy">
           <p class="eyebrow">Personnage joueur</p>
           <h1>${escapeHtml(p.nom)}</h1>
           ${p.surnom ? `<p class="character-surname">« ${escapeHtml(p.surnom)} »</p>` : ""}
