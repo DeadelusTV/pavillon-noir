@@ -29,6 +29,12 @@ const characterImageById = {
 
 const characterImage = (p) => p.image || characterImageById[p.id] || "";
 
+const vodLink = (session, className = "btn bronze") => {
+  if (!session.vod || !session.vod.url) return "";
+  const plateforme = session.vod.plateforme || "VOD";
+  return `<a class="${className}" href="${escapeHtml(session.vod.url)}" target="_blank" rel="noopener noreferrer">Voir la VOD sur ${escapeHtml(plateforme)} <span aria-hidden="true">↗</span></a>`;
+};
+
 const imageFigure = (src, alt, _caption, crop = false, extraClass = "") => `
   <figure class="campaign-image ${crop ? "campaign-image--crop" : ""} ${extraClass}">
     <img src="${escapeHtml(src)}" alt="${escapeHtml(alt || "Illustration de campagne")}" loading="lazy" />
@@ -128,6 +134,7 @@ function renderHome() {
       </div>
       <div class="cta-row">
         <a class="btn bronze" href="#${latest.id}">Lire le résumé complet</a>
+        ${vodLink(latest, "btn ghost")}
         <a class="text-link" href="#chronologie">Voir la chronologie →</a>
       </div>
     </section>
@@ -174,6 +181,7 @@ function renderSessions() {
               <h2>${escapeHtml(session.titre)}</h2>
               <p>${escapeHtml(session.resumeCourt)}</p>
               <a class="card-link" href="#${session.id}">Lire la session <span aria-hidden="true">→</span></a>
+              ${vodLink(session, "card-link")}
             </div>
           </article>
         `).join("")}
@@ -193,6 +201,7 @@ function renderSession(session) {
         <p class="eyebrow">${escapeHtml(session.saison)} · ${escapeHtml(session.numero)}</p>
         <h1>${escapeHtml(session.titre)}</h1>
         <p class="lede">${escapeHtml(session.resumeCourt)}</p>
+        ${session.vod && session.vod.url ? `<div class="cta-row">${vodLink(session)}</div>` : ""}
       </header>
 
       ${session.image ? imageFigure(session.image, session.imageAlt || "", "Illustration utilisée pendant la session.") : ""}
