@@ -191,10 +191,28 @@ window.PAVILLON_SESSIONS = [
       "url": "https://www.twitch.tv/videos/2873379244",
       "plateforme": "Twitch"
     },
-    "image": "",
-    "imageAlt": "",
+    "image": "assets/session-03-tempete.jpg",
+    "imageAlt": "Illustration d'une tempête maritime utilisée au début de la Session 03",
     "imageFin": "",
     "imageFinAlt": "",
+    "illustrations": [
+      {
+        "image": "assets/session-03-tempete.jpg",
+        "alt": "Illustration d'une tempête maritime utilisée au début de la Session 03"
+      },
+      {
+        "image": "assets/session-03-naufrage.jpg",
+        "alt": "Illustration d'un navire pris dans le naufrage utilisée pendant la Session 03"
+      },
+      {
+        "image": "assets/session-03-iles-vierges-01.jpg",
+        "alt": "Vue des Îles Vierges utilisée pendant la Session 03"
+      },
+      {
+        "image": "assets/session-03-iles-vierges-02.jpg",
+        "alt": "Seconde vue des Îles Vierges utilisée pendant la Session 03"
+      }
+    ],
     "resumeCourt": "Pris entre le navire anglais rencontré précédemment, un sloop en détresse et une nouvelle tempête, le Saint-Michel poursuit sa route sans répondre aux appels à l’aide. Lorsque le sloop hisse un pavillon noir, la rumeur de pirates se répand à bord. Mais au cœur de la tempête, le Saint-Michel heurte des récifs et est éventré. Seuls environ 25 membres de l’équipage survivent et Danny De Pingui est porté disparu. Échoués sur une île des Îles Vierges, les naufragés organisent leur survie avant que la disparition de trois marins ne les conduise dans la forêt, où l’un d’eux est retrouvé mort. Une embuscade éclate alors et révèle la présence d’habitants autochtones sur l’île.",
     "resumeDetaille": [
       "La session reprend exactement là où la précédente s’était arrêtée. Le Saint-Michel a laissé derrière lui le navire anglais qui l’a attaqué, mais une nouvelle tempête approche rapidement et un sloop sans pavillon se trouve droit devant.",

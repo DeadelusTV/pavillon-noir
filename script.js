@@ -194,6 +194,8 @@ function renderSession(session) {
   const persons = session.personnages.map(id => byId(data.personnages, id)).filter(Boolean);
   const npcs = session.pnj.map(id => byId(data.pnj, id)).filter(Boolean);
   const loreItems = session.lore.map(id => byId(data.lore, id)).filter(Boolean);
+  const illustrations = Array.isArray(session.illustrations) ? session.illustrations : [];
+  const galleryItems = illustrations.filter(item => !(session.image && item.image === session.image));
   return `
     <section class="detail-page section">
       ${breadcrumb([{ label: "Sessions", href: "#sessions" }, { label: session.numero }])}
@@ -222,6 +224,19 @@ function renderSession(session) {
 
           <h2>Événements majeurs</h2>
           <ol class="event-list">${session.evenements.map(event => `<li>${escapeHtml(event)}</li>`).join("")}</ol>
+
+          ${galleryItems.length ? `
+            <section class="subsection">
+              <div class="section-heading">
+                <p class="eyebrow">Supports visuels</p>
+                <h2>Illustrations de campagne</h2>
+                <p>Images utilisées pendant la session, dans leur ordre d'apparition.</p>
+              </div>
+              <div class="illustration-grid">
+                ${galleryItems.map(item => imageFigure(item.image, item.alt || "Illustration de campagne", "", !!item.imageCrop)).join("")}
+              </div>
+            </section>
+          ` : ""}
         </article>
 
         <aside class="side-panel">

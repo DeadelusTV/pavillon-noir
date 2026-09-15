@@ -66,6 +66,22 @@ window.PAVILLON_COULISSES = {
     {
       "titre": "Bataille navale",
       "image": "assets/bataille.png"
+    },
+    {
+      "titre": "Tempête — Session 03",
+      "image": "assets/session-03-tempete.jpg"
+    },
+    {
+      "titre": "Naufrage — Session 03",
+      "image": "assets/session-03-naufrage.jpg"
+    },
+    {
+      "titre": "Îles Vierges — Vue 1",
+      "image": "assets/session-03-iles-vierges-01.jpg"
+    },
+    {
+      "titre": "Îles Vierges — Vue 2",
+      "image": "assets/session-03-iles-vierges-02.jpg"
     }
   ]
 };
