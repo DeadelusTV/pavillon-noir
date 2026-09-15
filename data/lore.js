@@ -1,5 +1,5 @@
 // ONGLET LORE
-// Lieux, navires, vie maritime, contexte et mystères.
+// Monde, lieux, navires, objets et vie maritime.
 
 window.PAVILLON_LORE = [
   {
@@ -19,12 +19,15 @@ window.PAVILLON_LORE = [
     "id": "saint-michel",
     "categorie": "Navires",
     "titre": "Le Saint-Michel",
-    "sousTitre": "Flûte marchande · Destination initiale : Guadeloupe",
-    "resume": "Navire marchand sur lequel embarquent les quatre personnages à la fin de la Session 01.",
+    "sousTitre": "Flûte marchande · Naufragée dans les Îles Vierges",
+    "resume": "Navire marchand sur lequel les quatre personnages quittent Saint-Malo. Il fait naufrage sur des récifs pendant la Session 03 et est laissé gravement éventré au large de l’île.",
     "details": [
       "Le Saint-Michel est décrit comme une flûte d'environ cinquante mètres, gréée de voiles carrées.",
       "Son équipage approche la centaine de personnes et le bâtiment dispose de plusieurs canons, avec une organisation par bordées.",
-      "Danny De Pingui en est le capitaine et Dorak Mojomeurs le pilote."
+      "Danny De Pingui en est le capitaine et Dorak Mojomeurs le pilote.",
+      "Pendant une tempête, le Saint-Michel heurte des récifs dans les Îles Vierges et est gravement éventré.",
+      "Seuls environ 25 membres de l’équipage atteignent la côte après le naufrage.",
+      "Les survivants récupèrent en urgence eau, vivres, médicaments, armes et matériel dans l’épave avant qu’elle ne se dégrade davantage."
     ]
   },
   {
@@ -105,20 +108,63 @@ window.PAVILLON_LORE = [
     "details": [
       "Le bâtiment se rapproche du Saint-Michel après avoir semblé vouloir le dépasser.",
       "Une salve de mitraille frappe le pont du Saint-Michel.",
-      "Avant de prendre de la distance, Anduin touche sa mâture avec un boulet chaîné sans parvenir à l’abattre."
+      "Avant de prendre de la distance, Anduin touche sa mâture avec un boulet chaîné sans parvenir à l’abattre.",
+      "Au début de la Session 03, le bâtiment anglais cesse finalement de poursuivre le Saint-Michel.",
+      "Le sloop rencontré devant le Saint-Michel affirme avoir lui aussi été pris en chasse par ce navire anglais."
     ]
   },
   {
     "id": "sloop-sans-pavillon",
     "categorie": "Navires",
     "titre": "Le sloop sans pavillon",
-    "sousTitre": "Cliffhanger de la Session 02",
-    "resume": "Un petit bâtiment mystérieux apparaît droit devant le Saint-Michel à la toute fin de la session.",
+    "sousTitre": "Rencontre des Sessions 02 et 03",
+    "resume": "Le sloop aperçu à la fin de la Session 02 demande de l’aide au Saint-Michel avant de hisser un pavillon noir lorsque Danny De Pingui refuse de lui répondre. La rumeur de pirates se répand alors à bord, sans confirmation de leur identité réelle.",
     "details": [
-      "Le sloop ne porte aucun pavillon.",
-      "Sa voilure est en mauvais état et il navigue difficilement.",
-      "Son équipage paraît beaucoup trop nombreux pour un bâtiment de cette taille.",
-      "Les hypothèses formulées par les joueurs après son apparition ne sont pas considérées comme canoniques."
+      "Sa voilure est en mauvais état et son équipage paraît beaucoup trop nombreux pour un bâtiment de cette taille.",
+      "Ses hommes affirment avoir dérivé loin des côtes après avoir été pris en chasse par le navire anglais.",
+      "Ils demandent de la toile pour réparer et de l’eau, qui commence à leur manquer.",
+      "Danny De Pingui refuse toute assistance et ordonne que personne ne leur réponde.",
+      "Le sloop hisse alors un pavillon noir et tire un coup de semonce.",
+      "Le mot « pirate » circule aussitôt parmi l’équipage du Saint-Michel, mais leur identité n’est pas encore établie."
+    ]
+  },
+  {
+    "id": "iles-vierges",
+    "categorie": "Lieux",
+    "titre": "Les Îles Vierges",
+    "sousTitre": "Archipel au sud des Antilles",
+    "resume": "Après le naufrage, les connaissances réunies par le groupe et Dorak les amènent à estimer qu’ils se trouvent dans les Îles Vierges.",
+    "details": [
+      "L’île du naufrage est relativement vaste, avec un petit massif volcanique, des grottes, des zones forestières et des marécages.",
+      "D’autres terres sont visibles à l’horizon depuis les hauteurs.",
+      "Les connaissances théoriques du groupe leur laissent d’abord penser que ces îles ne sont occupées par aucune puissance connue.",
+      "Une colonne de fumée puis la rencontre avec des habitants autochtones montrent cependant que l’île est habitée."
+    ]
+  },
+  {
+    "id": "camp-survivants",
+    "categorie": "Lieux",
+    "titre": "Le camp des survivants",
+    "sousTitre": "Plage de l’île · Session 03",
+    "resume": "Après le naufrage du Saint-Michel, les survivants établissent un camp de fortune sur la plage et organisent leur survie autour des ressources récupérées dans l’épave.",
+    "details": [
+      "Le groupe ne compte plus qu’environ 25 survivants.",
+      "Le maître charpentier construit des abris de fortune.",
+      "Eau, nourriture, médicaments, armes et matériel sont récupérés puis regroupés au camp.",
+      "Des tours de garde sont organisés pendant la nuit après la découverte d’une fumée au nord-ouest de l’île."
+    ]
+  },
+  {
+    "id": "habitants-autochtones",
+    "categorie": "Rencontres",
+    "titre": "Habitants autochtones de l’île",
+    "sousTitre": "Identité précise encore inconnue",
+    "resume": "La Session 03 s’achève sur la première rencontre des naufragés avec les habitants autochtones de l’île, au cours d’une embuscade dans la forêt.",
+    "details": [
+      "Le groupe ne connaît encore ni le nom de ce peuple, ni son organisation, ni ses intentions au-delà de l’embuscade.",
+      "Les premiers individus aperçus portent des peintures corporelles et utilisent des arcs.",
+      "Une volée de flèches blesse Barron Bayard au bras gauche.",
+      "Le site utilise volontairement un terme générique tant qu’une identité plus précise n’a pas été établie en jeu."
     ]
   }
 ];

@@ -88,5 +88,35 @@ window.PAVILLON_CHRONOLOGIE = [
     "titre": "Le sloop sans pavillon",
     "texte": "Un sloop en mauvais état et anormalement chargé d’hommes apparaît droit devant le Saint-Michel alors qu’une nouvelle tempête approche.",
     "lien": "#lore-sloop-sans-pavillon"
+  },
+  {
+    "annee": "1715 · Approche des Antilles",
+    "titre": "Le pavillon noir",
+    "texte": "Après avoir demandé de l’aide au Saint-Michel, le sloop hisse un pavillon noir lorsque Danny De Pingui refuse de lui répondre. La rumeur de pirates se répand à bord.",
+    "lien": "#session-03"
+  },
+  {
+    "annee": "1715 · Îles Vierges",
+    "titre": "Naufrage du Saint-Michel",
+    "texte": "Pris dans la tempête, le Saint-Michel heurte des récifs et est éventré. Seuls environ 25 membres de l’équipage survivent et Danny De Pingui est porté disparu.",
+    "lien": "#session-03"
+  },
+  {
+    "annee": "1715 · Îles Vierges",
+    "titre": "Le camp des survivants",
+    "texte": "Les naufragés installent un camp sur la plage, récupèrent les ressources de l’épave et estiment se trouver dans les Îles Vierges. Une fumée observée au nord-ouest révèle une présence sur l’île.",
+    "lien": "#lore-camp-survivants"
+  },
+  {
+    "annee": "1715 · Îles Vierges",
+    "titre": "Trois marins disparaissent",
+    "texte": "Une patrouille de trois hommes ne revient pas pendant la nuit. L’un d’eux est ensuite retrouvé mort dans la forêt, maintenu contre un arbre par un sabre ; les deux autres restent portés disparus.",
+    "lien": "#session-03"
+  },
+  {
+    "annee": "1715 · Îles Vierges",
+    "titre": "Première rencontre sur l’île",
+    "texte": "Une embuscade éclate dans la forêt. Barron est blessé par une flèche et les naufragés découvrent pour la première fois les habitants autochtones de l’île.",
+    "lien": "#lore-habitants-autochtones"
   }
 ];

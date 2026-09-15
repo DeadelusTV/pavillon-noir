@@ -14,7 +14,9 @@ window.PAVILLON_PNJ = [
       "Introuvable au début de la campagne, il est finalement retrouvé dans les cachots de Saint-Malo.",
       "Il a été blessé d'un coup de dague et est soigné par Solenn.",
       "Un ancien carnet de navigation lui a été volé après une partie de cartes.",
-      "Le groupe l'aide à récupérer le carnet avant le départ du Saint-Michel."
+      "Le groupe l'aide à récupérer le carnet avant le départ du Saint-Michel.",
+      "Survit au naufrage du Saint-Michel et participe à l’organisation des survivants.",
+      "Ses connaissances contribuent à situer approximativement le groupe dans les Îles Vierges."
     ]
   },
   {
@@ -39,11 +41,13 @@ window.PAVILLON_PNJ = [
     "categorie": "Équipage",
     "premiere": "Session 01",
     "origineNom": "Nom issu d'un abonné de DeadelusTV",
-    "resume": "Ancien premier lieutenant de la Marine royale, désormais capitaine marchand. Il a participé financièrement à l'armement du Saint-Michel et conserve une discipline très militaire.",
+    "resume": "Ancien premier lieutenant de la Marine royale devenu capitaine marchand. Il a participé financièrement à l’armement du Saint-Michel et impose une discipline très militaire. Il est porté disparu après le naufrage du navire dans les Îles Vierges.",
     "faits": [
       "Ancien premier lieutenant de la Marine royale.",
       "A participé financièrement à l'armement du Saint-Michel.",
-      "Sa réputation laisse prévoir une organisation particulièrement rigoureuse à bord."
+      "Sa réputation laisse prévoir une organisation particulièrement rigoureuse à bord.",
+      "Ordonne d’ignorer la demande d’aide du sloop puis de tirer pour le maintenir à distance.",
+      "Porté disparu après le naufrage du Saint-Michel dans les Îles Vierges."
     ]
   },
   {
@@ -57,7 +61,8 @@ window.PAVILLON_PNJ = [
     "faits": [
       "La rencontre commence assez mal.",
       "La soirée se termine pourtant sur de bien meilleurs termes avec Solenn.",
-      "A rejoint le Saint-Michel comme matelot après les événements de la taverne."
+      "A rejoint le Saint-Michel comme matelot après les événements de la taverne.",
+      "Son sort après le naufrage du Saint-Michel reste inconnu."
     ]
   },
   {
@@ -71,7 +76,8 @@ window.PAVILLON_PNJ = [
     "faits": [
       "Participe au chaos de la taverne.",
       "La soirée se termine pourtant sur de bien meilleurs termes avec Solenn.",
-      "A rejoint le Saint-Michel comme matelot après les événements de la taverne."
+      "A rejoint le Saint-Michel comme matelot après les événements de la taverne.",
+      "Son sort après le naufrage du Saint-Michel reste inconnu."
     ]
   },
   {
@@ -153,7 +159,23 @@ window.PAVILLON_PNJ = [
     "faits": [
       "Identifié comme l’auteur du meurtre de Black Angel.",
       "Le groupe choisit de ne pas le dénoncer au capitaine.",
-      "Barron Bayard le confronte et lui fait comprendre qu’il lui doit désormais la vie."
+      "Barron Bayard le confronte et lui fait comprendre qu’il lui doit désormais la vie.",
+      "Fait partie des survivants présents après le naufrage du Saint-Michel."
+    ]
+  },
+  {
+    "id": "tank-neo",
+    "nom": "Tank Néo",
+    "role": "Second du Saint-Michel",
+    "categorie": "Équipage",
+    "premiere": "Session 03",
+    "origineNom": "Nom issu d’un abonné de DeadelusTV",
+    "resume": "Second du Saint-Michel. Après le naufrage et la disparition de Danny De Pingui, il devient le responsable officiel des survivants selon la hiérarchie du bord.",
+    "faits": [
+      "Aide Barron à organiser l’évacuation et la mise à l’eau de la chaloupe pendant le naufrage.",
+      "Prend en charge une partie de l’organisation du camp et des tours de garde.",
+      "Reste le responsable hiérarchique officiel en l’absence de Danny De Pingui.",
+      "Une partie des matelots se montre néanmoins plus disposée à suivre Barron, devenu chef officieux."
     ]
   }
 ];

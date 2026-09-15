@@ -37,6 +37,20 @@ window.PAVILLON_COULISSES = {
       "gagnant": "La mort du cuisinier Black Angel",
       "autre": "Des malades et la crainte d’une épidémie à bord",
       "consequence": "Le vote conduit à l’enquête sur le meurtre de Black Angel et à l’identification de Darling Sama."
+    },
+    {
+      "session": "Session 03",
+      "question": "Qui les survivants sont-ils le plus enclins à suivre ?",
+      "gagnant": "Barron Bayard",
+      "autre": "Tank Néo",
+      "consequence": "Tank Néo conserve l’autorité officielle en tant que second du Saint-Michel, mais une partie des matelots préfère écouter Barron, qui devient ainsi leur chef officieux."
+    },
+    {
+      "session": "Session 03",
+      "question": "Qui occupe l’île ?",
+      "gagnant": "Une population autochtone",
+      "autre": "Des pirates",
+      "consequence": "Le choix du public mène à l’embuscade et à la première rencontre des naufragés avec les habitants autochtones de l’île."
     }
   ],
   "illustrations": [

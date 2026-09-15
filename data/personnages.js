@@ -44,6 +44,10 @@ window.PAVILLON_PERSONNAGES = [
       {
         "session": "Session 02",
         "texte": "Subit le mal de mer mais reste extrêmement efficace pendant la grande tempête, soigne de nombreux blessés et participe ensuite à l’examen du corps de Black Angel."
+      },
+      {
+        "session": "Session 03",
+        "texte": "Soigne les survivants du naufrage, identifie un puissant narcotique local pour soulager les blessés les plus graves et finit elle-même par s’en administrer après les soins."
       }
     ]
   },
@@ -73,7 +77,7 @@ window.PAVILLON_PERSONNAGES = [
     ],
     "relations": [
       {
-        "cible": "Aldry Barrate",
+        "cible": "Aldry Baratte",
         "texte": "Les deux hommes se connaissent déjà un peu avant le début de la campagne."
       },
       {
@@ -89,6 +93,10 @@ window.PAVILLON_PERSONNAGES = [
       {
         "session": "Session 02",
         "texte": "Tente de modérer les sanctions du capitaine, surveille la montée des tensions à bord, participe à l’enquête sur Black Angel et choisit de ne pas dénoncer Darling Sama."
+      },
+      {
+        "session": "Session 03",
+        "texte": "Participe activement à l’évacuation du Saint-Michel, gagne la confiance d’une partie des survivants jusqu’à devenir leur chef officieux, puis est blessé au bras gauche lors de l’embuscade dans la forêt."
       }
     ]
   },
@@ -127,12 +135,16 @@ window.PAVILLON_PERSONNAGES = [
       {
         "session": "Session 02",
         "texte": "Commence à tenir discrètement un journal de la traversée, aide à sécuriser un canon pendant la tempête puis atteint la mâture d’une frégate anglaise avec un boulet chaîné."
+      },
+      {
+        "session": "Session 03",
+        "texte": "Participe à l’organisation du camp puis gagne les hauteurs pour observer l’île. Il repère une colonne de fumée au nord-ouest, révélant que les naufragés ne sont probablement pas seuls."
       }
     ]
   },
   {
     "id": "aldry-barat",
-    "nom": "Aldry Barrate",
+    "nom": "Aldry Baratte",
     "role": "Gabier",
     "origine": "Non précisée",
     "age": "21 ans",
@@ -171,6 +183,10 @@ window.PAVILLON_PERSONNAGES = [
       {
         "session": "Session 02",
         "texte": "Commence à apprendre à lire avec Dorak, se distingue pendant la tempête et sauve plusieurs marins lors de l’attaque de la frégate anglaise."
+      },
+      {
+        "session": "Session 03",
+        "texte": "Participe à la survie après le naufrage puis se distingue pendant les recherches nocturnes. Il suit les traces des marins disparus, repère un reflet métallique dans la forêt et échappe de justesse à une flèche au début de l’embuscade."
       }
     ]
   }

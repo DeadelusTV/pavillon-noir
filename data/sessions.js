@@ -1,5 +1,5 @@
 // ONGLET SESSIONS
-// Chaque session est un bloc indépendant. Session 02 est déjà intégrée ci-dessous.
+// Chaque session est un bloc indépendant. Session 03 est intégrée ci-dessous.
 
 window.PAVILLON_SESSIONS = [
   {
@@ -16,10 +16,10 @@ window.PAVILLON_SESSIONS = [
     "imageAlt": "Illustration de Saint-Malo utilisée pendant la Session 01",
     "imageFin": "assets/depart-saint-michel-session-01.png",
     "imageFinAlt": "Illustration portuaire utilisée au moment du départ du Saint-Michel",
-    "resumeCourt": "À quelques jours du départ du Saint-Michel pour la Guadeloupe, Solenn Brissac, Baron Bayard, Anduin Marleau et Aldry Barat sont chargés de retrouver Dorak Mojomeurs, le pilote du navire, disparu depuis la veille. Leur recherche les mène de tavernes en cachots, puis au cœur d'une bagarre générale pour récupérer un mystérieux carnet de navigation.",
+    "resumeCourt": "À quelques jours du départ du Saint-Michel pour la Guadeloupe, Solenn Brissac, Barron Bayard, Anduin Marlow et Aldry Baratte sont chargés de retrouver Dorak Mojomeurs, le pilote du navire, disparu depuis la veille. Leur recherche les mène de tavernes en cachots, puis au cœur d'une bagarre générale pour récupérer un mystérieux carnet de navigation.",
     "resumeDetaille": [
       "L’aventure débute à Saint-Malo en 1715, l’un des grands ports français ouverts sur le commerce maritime et les voyages vers les colonies. C’est là que quatre futurs compagnons se retrouvent liés au même navire marchand, le Saint-Michel, dont le départ pour la Guadeloupe est prévu dans les jours suivants.",
-      "Le groupe réunit Solenn Brissac, chirurgienne originaire de Brest ; Baron Bayard, jeune noble envoyé dans la marine ; Anduin Marleau, Nantais rêvant de devenir canonnier ; et Aldry Barat, marin ayant déjà une expérience en mer et spécialisé comme gabier. Ils se connaissent encore peu lorsque le quartier-maître du Saint-Michel leur confie leur première tâche commune : Dorak Mojomeurs, le pilote du navire, est introuvable, alors que le capitaine attend son retour à bord.",
+      "Le groupe réunit Solenn Brissac, chirurgienne originaire de Brest ; Barron Bayard, jeune noble envoyé dans la marine ; Anduin Marlow, Nantais rêvant de devenir canonnier ; et Aldry Baratte, marin ayant déjà une expérience en mer et spécialisé comme gabier. Ils se connaissent encore peu lorsque le quartier-maître du Saint-Michel leur confie leur première tâche commune : Dorak Mojomeurs, le pilote du navire, est introuvable, alors que le capitaine attend son retour à bord.",
       "Le groupe commence par se rendre chez Dorak. Une voisine leur apprend qu’il n’est pas rentré la nuit précédente et qu’il avait l’habitude de fréquenter L’Ancre ensablée, une importante taverne du port. Sur place, ils découvrent que Dorak y a passé une partie de la soirée à jouer aux cartes avant de repartir seul. Des témoins signalent ensuite une altercation dans la rue, interrompue par la garde.",
       "La piste mène donc aux cachots de Saint-Malo. Dorak y est effectivement détenu, notamment pour duel et port d’arme illicite. Bayard parvient à convaincre le garde de les laisser accéder au prisonnier, et l’armateur du Saint-Michel accepte ensuite de régler sa caution. Dorak est toutefois blessé d’un coup de dague au ventre. Solenn lui prodigue les premiers soins, suffisamment efficacement pour lui permettre de repartir avec le groupe, même si le repos reste conseillé.",
       "Dorak révèle alors que ses ennuis ne se limitent pas à une mauvaise soirée. La veille, il aurait remporté aux cartes une importante somme d’argent, mais surtout un ancien carnet de navigation. Son adversaire, Thomas Nova Brux, un autre pilote, l’aurait accusé de tricher. Plus tard dans la nuit, Dorak aurait été attaqué par plusieurs hommes et dépouillé de son argent, de ses armes et du précieux carnet. Pour lui, ce dernier compte bien davantage que l’argent perdu.",
@@ -91,7 +91,7 @@ window.PAVILLON_SESSIONS = [
     "resumeCourt": "Après plusieurs jours de navigation vers les Indes occidentales, la vie à bord du Saint-Michel se durcit brutalement. Une violente tempête provoque de nombreuses pertes et révèle la sévérité du capitaine Danny De Pingui, dont les sanctions font monter la tension entre marins et officiers. Tandis qu’un meurtre trouble encore davantage l’équipage, le navire poursuit difficilement sa route vers les Antilles. À l’approche de sa destination, une frégate sous pavillon anglais ouvre le feu sur le Saint-Michel, avant qu’un mystérieux sloop sans pavillon n’apparaisse droit devant eux.",
     "resumeDetaille": [
       "La traversée du Saint-Michel commence relativement calmement. Chad et Accra, rencontrés lors de la bagarre de Saint-Malo, ont finalement rejoint l’équipage comme matelots. Pour les quatre compagnons, les premiers jours permettent surtout de prendre leurs marques dans un environnement bien différent de la terre ferme.",
-      "Barron Bayard, Anduin Marlow et Aldry Barrate suivent le rythme rigoureux des quarts, alternant périodes de travail et de repos, tandis que Solenn Brissac, en tant que chirurgienne, reste principalement d’astreinte. Elle découvre toutefois que ses compétences médicales ne la protègent absolument pas du mal de mer et passe une partie du début du voyage à s’y acclimater. Tous découvrent également la promiscuité extrême du bâtiment, les vêtements constamment humides, la nourriture de plus en plus monotone et les différences de statut qui organisent la vie à bord.",
+      "Barron Bayard, Anduin Marlow et Aldry Barattete suivent le rythme rigoureux des quarts, alternant périodes de travail et de repos, tandis que Solenn Brissac, en tant que chirurgienne, reste principalement d’astreinte. Elle découvre toutefois que ses compétences médicales ne la protègent absolument pas du mal de mer et passe une partie du début du voyage à s’y acclimater. Tous découvrent également la promiscuité extrême du bâtiment, les vêtements constamment humides, la nourriture de plus en plus monotone et les différences de statut qui organisent la vie à bord.",
       "Le voyage apporte aussi quelques évolutions plus personnelles. Dorak Mojomeurs, ayant remarqué l’intérêt d’Aldry pour son carnet de navigation malgré son incapacité à le lire, lui propose de lui apprendre à lire. Après une courte hésitation, Aldry accepte et commence ses premières leçons avec le pilote.",
       "Les premiers jours se déroulent sans incident majeur. Le groupe participe même à une tradition maritime lors du passage du tropique du Cancer. Les marins n’ayant encore jamais franchi cette limite doivent l’admettre devant le quartier-maître, déguisé en juge pour l’occasion, avant de recevoir plusieurs seaux d’eau de mer sur la tête en guise de baptême. Aucun des quatre compagnons ne l’ayant déjà traversé, tous passent par le rituel.",
       "Cette relative tranquillité prend brutalement fin lorsqu’un nuage noir apparaît à l’horizon. Le capitaine comprend rapidement qu’une forte tempête se dirige vers eux et ordonne de préparer le navire. Barron relaie les ordres, tandis qu’Aldry et Anduin participent aux manœuvres visant à réduire la voilure et sécuriser le bâtiment. Peu après, les éléments se déchaînent.",
@@ -180,5 +180,82 @@ window.PAVILLON_SESSIONS = [
     ],
     "finTitre": "Pris entre deux dangers",
     "finTexte": "Derrière le Saint-Michel demeure la frégate anglaise. Droit devant apparaît un sloop sans pavillon, à la voilure en mauvais état et transportant beaucoup trop d’hommes pour sa taille. Une nouvelle tempête approche."
+  },
+  {
+    "id": "session-03",
+    "numero": "Session 03",
+    "saison": "Saison 1",
+    "titre": "Naufragés",
+    "date": "",
+    "vod": {
+      "url": "https://www.twitch.tv/videos/2873379244",
+      "plateforme": "Twitch"
+    },
+    "image": "",
+    "imageAlt": "",
+    "imageFin": "",
+    "imageFinAlt": "",
+    "resumeCourt": "Pris entre le navire anglais rencontré précédemment, un sloop en détresse et une nouvelle tempête, le Saint-Michel poursuit sa route sans répondre aux appels à l’aide. Lorsque le sloop hisse un pavillon noir, la rumeur de pirates se répand à bord. Mais au cœur de la tempête, le Saint-Michel heurte des récifs et est éventré. Seuls environ 25 membres de l’équipage survivent et Danny De Pingui est porté disparu. Échoués sur une île des Îles Vierges, les naufragés organisent leur survie avant que la disparition de trois marins ne les conduise dans la forêt, où l’un d’eux est retrouvé mort. Une embuscade éclate alors et révèle la présence d’habitants autochtones sur l’île.",
+    "resumeDetaille": [
+      "La session reprend exactement là où la précédente s’était arrêtée. Le Saint-Michel a laissé derrière lui le navire anglais qui l’a attaqué, mais une nouvelle tempête approche rapidement et un sloop sans pavillon se trouve droit devant.",
+      "Lorsque les deux navires arrivent à portée de voix, les hommes du sloop s’expriment en français. Ils affirment avoir dérivé loin des côtes après avoir été pris en chasse par le même navire anglais et réclament de la toile pour leurs réparations ainsi qu’un peu d’eau. Danny De Pingui refuse cependant toute assistance et ordonne que personne ne leur réponde.",
+      "Le Saint-Michel poursuit donc sa route. En réaction, l’équipage du sloop hisse un pavillon noir et tire un coup de semonce. Le mot « pirate » commence immédiatement à circuler parmi les marins, sans que la véritable identité des hommes du sloop soit encore établie. De Pingui fait tirer de la mitraille pour les maintenir à distance puis poursuit sa route.",
+      "La tempête finit néanmoins par engloutir le Saint-Michel. La visibilité devient presque nulle et les gabiers tentent de carguer la toile lorsqu’un cri de la vigie annonce soudain la terre, puis des récifs droit devant. Il est déjà trop tard : naviguant dans des eaux inconnues, le Saint-Michel heurte les hauts-fonds et les récifs. Le navire est gravement éventré et doit être abandonné.",
+      "Certains hommes tentent de rejoindre la côte à la nage tandis qu’une unique chaloupe est mise à l’eau. Dans le chaos, Barron Bayard tente de structurer l’évacuation, aidé notamment par Tank Néo, le second du navire, tandis que Dorak participe également à l’organisation. Barron parvient à faire mettre la chaloupe à l’eau et à canaliser une partie des hommes.",
+      "Le bilan est catastrophique : sur l’ensemble de l’équipage du Saint-Michel, seuls environ 25 survivants atteignent finalement la côte. Danny De Pingui ne fait pas partie d’eux et demeure porté disparu. Le sort de plusieurs autres membres de l’équipage, notamment Chad et Accra, reste inconnu.",
+      "Au lever du jour, l’ampleur du désastre apparaît. Le Saint-Michel est éventré et une partie importante de sa coque a été détruite par les récifs. Les survivants estiment que l’épave ne tiendra probablement plus longtemps. Il devient donc urgent de récupérer tout ce qui peut encore l’être : eau douce, nourriture, médicaments, outils, armes, tissus et matériel utilisable. Le maître charpentier ayant survécu, des abris de fortune commencent également à être construits sur la plage.",
+      "Solenn Brissac se consacre principalement aux blessés, dont certains sont très gravement mutilés. Les réserves récupérées sont regroupées et rationnées. Plus tard, elle identifie dans la végétation un puissant narcotique dont elle connaît suffisamment le dosage pour l’utiliser sur les survivants souffrant le plus afin de leur permettre de se reposer. Après s’être occupée des autres, elle en prend également elle-même.",
+      "L’exploration des environs révèle une île relativement vaste, avec un petit massif volcanique, plusieurs grottes, une forêt peu dense, des zones marécageuses et d’autres terres visibles à l’horizon. En recoupant leurs connaissances géographiques, Dorak et les autres estiment finalement se trouver dans les Îles Vierges, dans la partie sud des Antilles.",
+      "Leurs connaissances théoriques leur laissent d’abord penser que ces terres ne sont pas occupées. Cette certitude disparaît rapidement : depuis une position élevée, Anduin Marlow aperçoit une colonne de fumée au nord-ouest, à plusieurs kilomètres du camp. Quelqu’un se trouve donc déjà sur l’île. Les naufragés ignorent encore s’il s’agit d’habitants inconnus, des Anglais, des hommes du sloop ou d’un autre groupe.",
+      "À la tombée de la nuit, Tank Néo organise des tours de garde tandis que Barron prend la responsabilité d’un autre groupe. Tank Néo reste officiellement le supérieur hiérarchique des survivants en tant que second du Saint-Michel. Cependant, l’attitude de Barron depuis le naufrage lui a gagné la confiance d’une partie des matelots, qui semblent désormais plus enclins à l’écouter.",
+      "Vers quatre heures du matin, une patrouille de trois marins n’est jamais revenue. Aucun cri, aucun bruit de lutte et aucun signe particulier n’ont été entendus. Une désertion paraît également peu probable, puisque les vivres et les soins se trouvent au camp. Les survivants organisent alors des recherches tout en évitant de laisser le camp sans défense.",
+      "Les premières traces montrent que les trois hommes ont quitté volontairement la plage et se sont dirigés vers la forêt. Aucun signe ne laisse penser qu’ils aient été traînés. Un peu plus loin, Aldry Baratte repère un reflet métallique immobile entre les arbres. Le groupe revient en nombre et avance avec des torches jusqu’à l’endroit indiqué.",
+      "Le reflet provient d’un sabre planté dans un arbre. Entre la lame et le tronc se trouve l’un des trois marins disparus, mort. Le décès de l’un d’entre eux est donc confirmé, tandis que les deux autres restent portés disparus.",
+      "À peine le groupe a-t-il le temps de réagir qu’une flèche traverse la végétation. Aldry, qui s’est baissé au moment de la découverte, évite de justesse le projectile. Une volée de flèches suit immédiatement. Aldry parvient encore à ne pas être touché, mais Barron échoue à esquiver : une flèche l’atteint au bras gauche et le blesse.",
+      "Les torches sont alors relevées vers la végétation. Des silhouettes apparaissent parmi les arbres : des habitants autochtones de l’île, armés d’arcs et portant des peintures corporelles. Il s’agit de la première rencontre des survivants avec la population locale. La session s’interrompt exactement à cet instant, en plein début d’embuscade, laissant Barron blessé, deux marins toujours disparus et le groupe face à des habitants dont il ne sait encore pratiquement rien."
+    ],
+    "evenements": [
+      "Le sloop demande de l’eau et de la toile au Saint-Michel",
+      "Danny De Pingui refuse de lui porter assistance",
+      "Le sloop hisse un pavillon noir et la rumeur de pirates se répand",
+      "Le Saint-Michel heurte des récifs pendant la tempête et fait naufrage",
+      "Seuls environ 25 membres de l’équipage survivent",
+      "Danny De Pingui est porté disparu",
+      "Les survivants établissent un camp et récupèrent du matériel dans l’épave",
+      "Le groupe estime se trouver dans les Îles Vierges",
+      "Anduin repère une colonne de fumée au nord-ouest",
+      "Barron devient un chef officieux aux yeux d’une partie des matelots",
+      "Trois marins disparaissent pendant une patrouille nocturne",
+      "L’un des trois disparus est retrouvé mort, maintenu contre un arbre par un sabre",
+      "Les deux autres marins restent portés disparus",
+      "Une volée de flèches frappe le groupe et Barron est blessé au bras gauche",
+      "Les naufragés rencontrent pour la première fois les habitants autochtones de l’île"
+    ],
+    "personnages": [
+      "solenn-brissac",
+      "baron-bayard",
+      "anduin-marleau",
+      "aldry-barat"
+    ],
+    "pnj": [
+      "dorak-mojomeurs",
+      "danny-de-pingui",
+      "tank-neo",
+      "darling-sama"
+    ],
+    "lore": [
+      "saint-michel",
+      "fregate-anglaise",
+      "sloop-sans-pavillon",
+      "iles-vierges",
+      "camp-survivants",
+      "habitants-autochtones"
+    ],
+    "coulisses": [
+      "Le public a choisi Barron plutôt que Tank Néo lors d’un sondage lié au commandement. Tank Néo reste le responsable officiel en tant que second du Saint-Michel, mais Barron devient le chef officieux préféré d’une partie des matelots.",
+      "Le public a choisi que l’île soit occupée par une population autochtone plutôt que par des pirates. Ce résultat conduit directement à la révélation finale et à l’embuscade."
+    ],
+    "finTitre": "Première rencontre",
+    "finTexte": "Dans la forêt, une volée de flèches blesse Barron. Les torches révèlent alors les habitants autochtones de l’île parmi les arbres. La session s’arrête au début de l’embuscade."
   }
 ];
