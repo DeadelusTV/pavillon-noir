@@ -7,5 +7,6 @@ window.PAVILLON_DATA = {
   lore: window.PAVILLON_LORE,
   sessions: window.PAVILLON_SESSIONS,
   chronologie: window.PAVILLON_CHRONOLOGIE,
-  coulisses: window.PAVILLON_COULISSES
+  coulisses: window.PAVILLON_COULISSES,
+  systeme: window.PAVILLON_SYSTEME
 };

@@ -156,6 +156,7 @@ function renderHome() {
       <div class="portal-grid">
         <a class="portal-card" href="#pnj"><strong>PNJ</strong><span>Alliés, adversaires et rencontres</span></a>
         <a class="portal-card" href="#lore"><strong>Lore</strong><span>Lieux, navires, objets et vie maritime</span></a>
+        <a class="portal-card" href="#systeme"><strong>Système</strong><span>Comprendre les dés et les jets sans lire un grimoire de règles</span></a>
         <a class="portal-card" href="#chronologie"><strong>Chronologie</strong><span>Les grands événements dans l'ordre</span></a>
         <a class="portal-card" href="#coulisses"><strong>Coulisses</strong><span>Votes du public et fonctionnement de la campagne</span></a>
       </div>
@@ -433,6 +434,85 @@ function renderLore(item) {
   `;
 }
 
+
+function renderSysteme() {
+  const s = data.systeme;
+  return `
+    <section class="page-hero section page-hero--small">
+      <p class="eyebrow">Les dés & les règles</p>
+      <h1>${escapeHtml(s.titre)}</h1>
+      <p>${escapeHtml(s.intro)}</p>
+    </section>
+
+    <section class="section section-tight">
+      <div class="section-heading">
+        <p class="eyebrow">Le principe</p>
+        <h2>${escapeHtml(s.regleBase.titre)}</h2>
+      </div>
+      <div class="principle-grid">
+        ${s.regleBase.etapes.map(item => `
+          <article class="principle-card">
+            <h2>${escapeHtml(item.titre)}</h2>
+            <p>${escapeHtml(item.texte)}</p>
+          </article>
+        `).join("")}
+      </div>
+      <div class="note-panel"><p><strong>Exemple :</strong> ${escapeHtml(s.regleBase.exemple)}</p></div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Résultats particuliers</p>
+        <h2>Les chiffres à repérer</h2>
+      </div>
+      <div class="principle-grid">
+        ${s.critiques.map(item => `
+          <article class="principle-card">
+            <h2>${escapeHtml(item.titre)}</h2>
+            <p>${escapeHtml(item.texte)}</p>
+          </article>
+        `).join("")}
+      </div>
+      <div class="note-panel"><p><strong>Compétence à 0 :</strong> ${escapeHtml(s.exempleZero)}</p></div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">À l'écran</p>
+        <h2>Pourquoi les jets changent</h2>
+      </div>
+      <div class="principle-grid">
+        ${s.variantes.map(item => `
+          <article class="principle-card">
+            <h2>${escapeHtml(item.titre)}</h2>
+            <p>${escapeHtml(item.texte)}</p>
+          </article>
+        `).join("")}
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="article-layout">
+        <article class="prose-panel">
+          <h2>${escapeHtml(s.blessures.titre)}</h2>
+          <p>${escapeHtml(s.blessures.texte)}</p>
+          <p><strong>Exemple :</strong> ${escapeHtml(s.blessures.exemple)}</p>
+
+          <h2>${escapeHtml(s.progression.titre)}</h2>
+          <p>${escapeHtml(s.progression.texte)}</p>
+        </article>
+
+        <aside class="side-panel">
+          <div class="side-block">
+            <span class="panel-label">Mémo express</span>
+            ${s.memo.map(item => `<p>${escapeHtml(item)}</p>`).join("")}
+          </div>
+        </aside>
+      </div>
+    </section>
+  `;
+}
+
 function renderChronologie() {
   return `
     <section class="page-hero section page-hero--small">
@@ -519,6 +599,7 @@ function route() {
   else if (hash === "equipage") html = renderEquipage();
   else if (hash === "pnj") html = renderPnjList();
   else if (hash === "lore") html = renderLoreList();
+  else if (hash === "systeme") html = renderSysteme();
   else if (hash === "chronologie") html = renderChronologie();
   else if (hash === "coulisses") html = renderCoulisses();
   else if (hash.startsWith("personnage-")) {
