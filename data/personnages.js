@@ -54,19 +54,15 @@ window.PAVILLON_PERSONNAGES = [
   {
     "id": "baron-bayard",
     "nom": "Barron Bayard",
-    "nomComplet": "Jean-Nicolas Marie de Paladru dit Baron Bayard",
+    "nomComplet": "Baron Jean Nicholas Marie de Paladru",
     "role": "Aspirant de marine",
     "origine": "Isère",
     "age": "Non précisé",
     "resume": "Jeune noble turbulent envoyé dans la marine pour apprendre la discipline, tout en rêvant secrètement d'aventure et de liberté.",
     "histoire": [
-      "Jean-Nicolas Marie de Paladru dit Baron Bayard, noble savoyard de 24 ans, incarne l’élégance et la prestance de la haute noblesse française du début du XVIIIe siècle. Il mesure environ 1m85, avec une silhouette élancée et gracieuse, sans être excessivement musclé. Son visage est harmonieux, aux traits fins et réguliers, reflétant une beauté classique accentuée par une expression confiante et charismatique."
-
-"Ses cheveux bruns, légèrement ondulés, encadrent un front dégagé – sans perruque, ce qui le distingue des modes de cour les plus strictes – tandis que ses yeux bleus perçants semblent observer le monde avec assurance et ambition. Il porte une tenue richement ornée de velours bleu roi, brodée de fleurs de lys dorées, emblème de sa loyauté à la couronne française. Sa rapière, à la poignée finement ouvragée, est un bijou à elle seule, plus symbole de statut que simple arme."
-
-"Originaire de l'Isère il a passé une jeunesse troublé par ses nombreux écarts de conduites qui lui ont value maintes fois les remontrances de ses précepteurs et de ses parents. Trouvant toujours le bon mot pour se sortir des ennuis il n'avait néanmoins qu'un seul rêve : échapper aux responsabilités d'une vie de noblion. Il parti ainsi pour la côte atlantique afin de faire ses classes dans la marine marchande afin de partir vers le nouveau monde et la liberté."
-
-"Posé devant un port animé, avec la mer et les navires en toile de fond, il incarne à la fois la jeunesse noble, l'assurance d’un homme de rang, et une touche d’indépendance savoyarde.."
+      "Issu d'une famille noble de l'Isère, Bayard a connu une jeunesse turbulente, bagarreuse et orgueilleuse.",
+      "Ses parents l'ont envoyé dans la marine pour lui apprendre la discipline et, peut-être, redorer l'image d'une famille vieillissante.",
+      "Sous ce projet très convenable se cache un objectif nettement moins sage : mener une vie d'aventure et de liberté."
     ],
     "traits": [
       "Noble",
