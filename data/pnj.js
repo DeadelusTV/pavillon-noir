@@ -4,7 +4,7 @@
 window.PAVILLON_PNJ = [
   {
     "id": "dorak-mojomeurs",
-    "nom": "Dorak Mojomeurs",
+    "nom": "Dorak Maugemeur",
     "role": "Pilote du Saint-Michel",
     "categorie": "Équipage",
     "premiere": "Session 01",
@@ -21,12 +21,11 @@ window.PAVILLON_PNJ = [
   },
   {
     "id": "thomas-nova-brux",
-    "nom": "Thomas Nova Brux",
+    "nom": "Thomas Novabrux",
     "role": "Pilote · Rival de Dorak",
     "categorie": "Adversaire",
     "premiere": "Session 01",
     "origineNom": "Nom issu d'un abonné de DeadelusTV",
-    "nomIncertain": true,
     "resume": "Autre pilote rencontré à Saint-Malo. Après avoir accusé Dorak de tricher aux cartes, il se retrouve au centre de l'affaire du carnet volé.",
     "faits": [
       "Dorak affirme l'avoir battu aux cartes.",
@@ -36,7 +35,7 @@ window.PAVILLON_PNJ = [
   },
   {
     "id": "danny-de-pingui",
-    "nom": "Danny De Pingui",
+    "nom": "Dany le Pinguy",
     "role": "Capitaine du Saint-Michel",
     "categorie": "Équipage",
     "premiere": "Session 01",
@@ -82,7 +81,7 @@ window.PAVILLON_PNJ = [
   },
   {
     "id": "paff",
-    "nom": "Paff",
+    "nom": "paff59",
     "role": "Matelot du Saint-Michel",
     "categorie": "Équipage",
     "premiere": "Session 02",
@@ -95,7 +94,7 @@ window.PAVILLON_PNJ = [
   },
   {
     "id": "julien-of-jardin",
-    "nom": "Julien of jardin",
+    "nom": "julienofjardin",
     "role": "Matelot du Saint-Michel",
     "categorie": "Équipage",
     "premiere": "Session 02",
@@ -108,12 +107,11 @@ window.PAVILLON_PNJ = [
   },
   {
     "id": "okin",
-    "nom": "Okin",
+    "nom": "okkyn",
     "role": "Matelot du Saint-Michel",
     "categorie": "Équipage",
     "premiere": "Session 02",
-    "origineNom": "Nom issu d’un abonné de DeadelusTV · orthographe à confirmer",
-    "nomIncertain": true,
+    "origineNom": "Nom issu d’un abonné de DeadelusTV",
     "resume": "L’un des quatre marins désignés par le capitaine après la grande tempête.",
     "faits": [
       "Condamné à huit coups de fouet après la tempête.",
@@ -122,7 +120,7 @@ window.PAVILLON_PNJ = [
   },
   {
     "id": "berluue",
-    "nom": "Berluue",
+    "nom": "berl_uue",
     "role": "Matelot du Saint-Michel",
     "categorie": "Équipage",
     "premiere": "Session 02",
@@ -135,7 +133,7 @@ window.PAVILLON_PNJ = [
   },
   {
     "id": "black-angel",
-    "nom": "Black Angel",
+    "nom": "Blackangele",
     "role": "Coq / cuisinier du Saint-Michel",
     "categorie": "Équipage",
     "premiere": "Session 02",
@@ -144,38 +142,37 @@ window.PAVILLON_PNJ = [
     "faits": [
       "Distribuait clandestinement davantage de nourriture à certains marins en échange de faveurs.",
       "Retrouvé poignardé pendant la nuit.",
-      "L’enquête menée par le groupe conduit à Darling Sama."
+      "L’enquête menée par le groupe conduit à Darlingsamaa."
     ]
   },
   {
     "id": "darling-sama",
-    "nom": "Darling Sama",
+    "nom": "Darlingsamaa",
     "role": "Matelot du Saint-Michel",
     "categorie": "Équipage",
     "premiere": "Session 02",
-    "origineNom": "Nom issu d’un abonné de DeadelusTV · orthographe provisoire",
-    "nomIncertain": true,
-    "resume": "Matelot identifié comme le meurtrier de Black Angel après l’enquête du groupe.",
+    "origineNom": "Nom issu d’un abonné de DeadelusTV",
+    "resume": "Matelot identifié comme le meurtrier de Blackangele après l’enquête du groupe.",
     "faits": [
-      "Identifié comme l’auteur du meurtre de Black Angel.",
+      "Identifié comme l’auteur du meurtre de Blackangele.",
       "Le groupe choisit de ne pas le dénoncer au capitaine.",
-      "Barron Bayard le confronte et lui fait comprendre qu’il lui doit désormais la vie.",
+      "Baron Bayard le confronte et lui fait comprendre qu’il lui doit désormais la vie.",
       "Fait partie des survivants présents après le naufrage du Saint-Michel."
     ]
   },
   {
     "id": "tank-neo",
-    "nom": "Tank Néo",
+    "nom": "Tenqneoo",
     "role": "Second du Saint-Michel",
     "categorie": "Équipage",
     "premiere": "Session 03",
     "origineNom": "Nom issu d’un abonné de DeadelusTV",
-    "resume": "Second du Saint-Michel. Après le naufrage et la disparition de Danny De Pingui, il devient le responsable officiel des survivants selon la hiérarchie du bord.",
+    "resume": "Second du Saint-Michel. Après le naufrage et la disparition de Dany le Pinguy, il devient le responsable officiel des survivants selon la hiérarchie du bord.",
     "faits": [
-      "Aide Barron à organiser l’évacuation et la mise à l’eau de la chaloupe pendant le naufrage.",
+      "Aide Baron à organiser l’évacuation et la mise à l’eau de la chaloupe pendant le naufrage.",
       "Prend en charge une partie de l’organisation du camp et des tours de garde.",
-      "Reste le responsable hiérarchique officiel en l’absence de Danny De Pingui.",
-      "Une partie des matelots se montre néanmoins plus disposée à suivre Barron, devenu chef officieux."
+      "Reste le responsable hiérarchique officiel en l’absence de Dany le Pinguy.",
+      "Une partie des matelots se montre néanmoins plus disposée à suivre Baron, devenu chef officieux."
     ]
   }
 ];

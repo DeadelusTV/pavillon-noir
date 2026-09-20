@@ -4,6 +4,7 @@
 window.PAVILLON_PERSONNAGES = [
   {
     "id": "solenn-brissac",
+    "fiche": "assets/fiche_solenn.png",
     "nom": "Solenn Brissac",
     "surnom": "Lame-de-rhum",
     "role": "Chirurgienne du Saint-Michel",
@@ -28,7 +29,7 @@ window.PAVILLON_PERSONNAGES = [
     ],
     "relations": [
       {
-        "cible": "Dorak Mojomeurs",
+        "cible": "Dorak Maugemeur",
         "texte": "Le soigne après sa sortie des cachots puis sympathise avec lui."
       },
       {
@@ -39,11 +40,11 @@ window.PAVILLON_PERSONNAGES = [
     "evolution": [
       {
         "session": "Session 01",
-        "texte": "Soigne Dorak Mojomeurs, subit une blessure légère pendant la bagarre et prend ensuite son poste à l'infirmerie du Saint-Michel."
+        "texte": "Soigne Dorak Maugemeur, subit une blessure légère pendant la bagarre et prend ensuite son poste à l'infirmerie du Saint-Michel."
       },
       {
         "session": "Session 02",
-        "texte": "Subit le mal de mer mais reste extrêmement efficace pendant la grande tempête, soigne de nombreux blessés et participe ensuite à l’examen du corps de Black Angel."
+        "texte": "Subit le mal de mer mais reste extrêmement efficace pendant la grande tempête, soigne de nombreux blessés et participe ensuite à l’examen du corps de Blackangele."
       },
       {
         "session": "Session 03",
@@ -53,6 +54,7 @@ window.PAVILLON_PERSONNAGES = [
   },
   {
     "id": "baron-bayard",
+    "fiche": "assets/fiche_baron.png",
     "nom": "Baron Bayard",
     "nomComplet": "Jean-Nicolas Marie de Paladru dit Baron Bayard",
     "role": "Aspirant de marine",
@@ -82,8 +84,8 @@ window.PAVILLON_PERSONNAGES = [
         "texte": "Les deux hommes se connaissent déjà un peu avant le début de la campagne."
       },
       {
-        "cible": "Dorak Mojomeurs",
-        "texte": "Participe à sa libération et impose son autorité lors de la confrontation avec Nova Brux."
+        "cible": "Dorak Maugemeur",
+        "texte": "Participe à sa libération et impose son autorité lors de la confrontation avec Novabrux."
       }
     ],
     "evolution": [
@@ -93,7 +95,7 @@ window.PAVILLON_PERSONNAGES = [
       },
       {
         "session": "Session 02",
-        "texte": "Tente de modérer les sanctions du capitaine, surveille la montée des tensions à bord, participe à l’enquête sur Black Angel et choisit de ne pas dénoncer Darling Sama."
+        "texte": "Tente de modérer les sanctions du capitaine, surveille la montée des tensions à bord, participe à l’enquête sur Blackangele et choisit de ne pas dénoncer Darlingsamaa."
       },
       {
         "session": "Session 03",
@@ -103,6 +105,7 @@ window.PAVILLON_PERSONNAGES = [
   },
   {
     "id": "anduin-marleau",
+    "fiche": "assets/fiche_anduin.png",
     "nom": "Anduin Marlow",
     "role": "Marin · Aspirant canonnier",
     "origine": "Nantes",
@@ -145,6 +148,7 @@ window.PAVILLON_PERSONNAGES = [
   },
   {
     "id": "aldry-barat",
+    "fiche": "assets/fiche_aldry.png",
     "nom": "Aldry Baratte",
     "role": "Gabier",
     "origine": "Non précisée",
@@ -168,18 +172,18 @@ window.PAVILLON_PERSONNAGES = [
     ],
     "relations": [
       {
-        "cible": "Barron Bayard",
+        "cible": "Baron Bayard",
         "texte": "Connaissance antérieure à la campagne."
       },
       {
-        "cible": "Dorak Mojomeurs",
+        "cible": "Dorak Maugemeur",
         "texte": "Montre un réel intérêt pour son carnet et pour ses connaissances de pilote."
       }
     ],
     "evolution": [
       {
         "session": "Session 01",
-        "texte": "Profite de la bagarre générale pour récupérer le carnet sur Nova Brux, puis se distingue favorablement lors des premières manœuvres du Saint-Michel."
+        "texte": "Profite de la bagarre générale pour récupérer le carnet sur Novabrux, puis se distingue favorablement lors des premières manœuvres du Saint-Michel."
       },
       {
         "session": "Session 02",

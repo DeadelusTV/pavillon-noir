@@ -12,7 +12,7 @@ window.PAVILLON_CHRONOLOGIE = [
   {
     "annee": "1715",
     "titre": "Le pilote a disparu",
-    "texte": "Le quartier-maître charge le groupe de retrouver Dorak Mojomeurs avant le départ.",
+    "texte": "Le quartier-maître charge le groupe de retrouver Dorak Maugemeur avant le départ.",
     "lien": "#session-01"
   },
   {
@@ -24,7 +24,7 @@ window.PAVILLON_CHRONOLOGIE = [
   {
     "annee": "1715",
     "titre": "L'affaire du carnet",
-    "texte": "Dorak révèle le vol d'un ancien carnet de navigation et entraîne le groupe sur la piste de Thomas Nova Brux.",
+    "texte": "Dorak révèle le vol d'un ancien carnet de navigation et entraîne le groupe sur la piste de Thomas Novabrux.",
     "lien": "#lore-carnet-dorak"
   },
   {
@@ -56,7 +56,7 @@ window.PAVILLON_CHRONOLOGIE = [
   {
     "annee": "1715 · Traversée",
     "titre": "La discipline se durcit",
-    "texte": "Paff, Julien of jardin, Okin et Berluue sont fouettés sur ordre du capitaine. Julien of jardin et Okin meurent de leurs blessures.",
+    "texte": "paff59, julienofjardin, okkyn et berl_uue sont fouettés sur ordre du capitaine. julienofjardin et okkyn meurent de leurs blessures.",
     "lien": "#lore-discipline-saint-michel"
   },
   {
@@ -67,8 +67,8 @@ window.PAVILLON_CHRONOLOGIE = [
   },
   {
     "annee": "1715 · Traversée",
-    "titre": "Meurtre de Black Angel",
-    "texte": "Le cuisinier est retrouvé poignardé. L’enquête du groupe identifie Darling Sama, que Barron choisit de ne pas livrer au capitaine.",
+    "titre": "Meurtre de Blackangele",
+    "texte": "Le cuisinier est retrouvé poignardé. L’enquête du groupe identifie Darlingsamaa, que Baron choisit de ne pas livrer au capitaine.",
     "lien": "#pnj-black-angel"
   },
   {
@@ -92,13 +92,13 @@ window.PAVILLON_CHRONOLOGIE = [
   {
     "annee": "1715 · Approche des Antilles",
     "titre": "Le pavillon noir",
-    "texte": "Après avoir demandé de l’aide au Saint-Michel, le sloop hisse un pavillon noir lorsque Danny De Pingui refuse de lui répondre. La rumeur de pirates se répand à bord.",
+    "texte": "Après avoir demandé de l’aide au Saint-Michel, le sloop hisse un pavillon noir lorsque Dany le Pinguy refuse de lui répondre. La rumeur de pirates se répand à bord.",
     "lien": "#session-03"
   },
   {
     "annee": "1715 · Îles Vierges",
     "titre": "Naufrage du Saint-Michel",
-    "texte": "Pris dans la tempête, le Saint-Michel heurte des récifs et est éventré. Seuls environ 25 membres de l’équipage survivent et Danny De Pingui est porté disparu.",
+    "texte": "Pris dans la tempête, le Saint-Michel heurte des récifs et est éventré. Seuls environ 25 membres de l’équipage survivent et Dany le Pinguy est porté disparu.",
     "lien": "#session-03"
   },
   {
@@ -116,7 +116,7 @@ window.PAVILLON_CHRONOLOGIE = [
   {
     "annee": "1715 · Îles Vierges",
     "titre": "Première rencontre sur l’île",
-    "texte": "Une embuscade éclate dans la forêt. Barron est blessé par une flèche et les naufragés découvrent pour la première fois les habitants autochtones de l’île.",
+    "texte": "Une embuscade éclate dans la forêt. Baron est blessé par une flèche et les naufragés découvrent pour la première fois les habitants autochtones de l’île.",
     "lien": "#lore-habitants-autochtones"
   }
 ];

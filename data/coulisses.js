@@ -34,16 +34,16 @@ window.PAVILLON_COULISSES = {
     {
       "session": "Session 02",
       "question": "Quelle nouvelle crise doit toucher l’équipage ?",
-      "gagnant": "La mort du cuisinier Black Angel",
+      "gagnant": "La mort du cuisinier Blackangele",
       "autre": "Des malades et la crainte d’une épidémie à bord",
-      "consequence": "Le vote conduit à l’enquête sur le meurtre de Black Angel et à l’identification de Darling Sama."
+      "consequence": "Le vote conduit à l’enquête sur le meurtre de Blackangele et à l’identification de Darlingsamaa."
     },
     {
       "session": "Session 03",
       "question": "Qui les survivants sont-ils le plus enclins à suivre ?",
-      "gagnant": "Barron Bayard",
-      "autre": "Tank Néo",
-      "consequence": "Tank Néo conserve l’autorité officielle en tant que second du Saint-Michel, mais une partie des matelots préfère écouter Barron, qui devient ainsi leur chef officieux."
+      "gagnant": "Baron Bayard",
+      "autre": "Tenqneoo",
+      "consequence": "Tenqneoo conserve l’autorité officielle en tant que second du Saint-Michel, mais une partie des matelots préfère écouter Baron, qui devient ainsi leur chef officieux."
     },
     {
       "session": "Session 03",

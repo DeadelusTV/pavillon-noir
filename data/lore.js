@@ -24,7 +24,7 @@ window.PAVILLON_LORE = [
     "details": [
       "Le Saint-Michel est décrit comme une flûte d'environ cinquante mètres, gréée de voiles carrées.",
       "Son équipage approche la centaine de personnes et le bâtiment dispose de plusieurs canons, avec une organisation par bordées.",
-      "Danny De Pingui en est le capitaine et Dorak Mojomeurs le pilote.",
+      "Dany le Pinguy en est le capitaine et Dorak Maugemeur le pilote.",
       "Pendant une tempête, le Saint-Michel heurte des récifs dans les Îles Vierges et est gravement éventré.",
       "Seuls environ 25 membres de l’équipage atteignent la côte après le naufrage.",
       "Les survivants récupèrent en urgence eau, vivres, médicaments, armes et matériel dans l’épave avant qu’elle ne se dégrade davantage."
@@ -92,7 +92,7 @@ window.PAVILLON_LORE = [
     "categorie": "Vie maritime",
     "titre": "Discipline à bord du Saint-Michel",
     "sousTitre": "Sanctions, hiérarchie et tensions",
-    "resume": "La discipline très militaire de Danny De Pingui devient l’un des principaux foyers de tension pendant la traversée.",
+    "resume": "La discipline très militaire de Dany le Pinguy devient l’un des principaux foyers de tension pendant la traversée.",
     "details": [
       "Après la tempête, quatre marins sont condamnés à huit coups de fouet et deux meurent de leurs blessures.",
       "Plus tard, trois marins impliqués dans une dispute liée à des jeux d’argent interdits reçoivent vingt-cinq coups de fouet et meurent.",
@@ -118,12 +118,12 @@ window.PAVILLON_LORE = [
     "categorie": "Navires",
     "titre": "Le sloop sans pavillon",
     "sousTitre": "Rencontre des Sessions 02 et 03",
-    "resume": "Le sloop aperçu à la fin de la Session 02 demande de l’aide au Saint-Michel avant de hisser un pavillon noir lorsque Danny De Pingui refuse de lui répondre. La rumeur de pirates se répand alors à bord, sans confirmation de leur identité réelle.",
+    "resume": "Le sloop aperçu à la fin de la Session 02 demande de l’aide au Saint-Michel avant de hisser un pavillon noir lorsque Dany le Pinguy refuse de lui répondre. La rumeur de pirates se répand alors à bord, sans confirmation de leur identité réelle.",
     "details": [
       "Sa voilure est en mauvais état et son équipage paraît beaucoup trop nombreux pour un bâtiment de cette taille.",
       "Ses hommes affirment avoir dérivé loin des côtes après avoir été pris en chasse par le navire anglais.",
       "Ils demandent de la toile pour réparer et de l’eau, qui commence à leur manquer.",
-      "Danny De Pingui refuse toute assistance et ordonne que personne ne leur réponde.",
+      "Dany le Pinguy refuse toute assistance et ordonne que personne ne leur réponde.",
       "Le sloop hisse alors un pavillon noir et tire un coup de semonce.",
       "Le mot « pirate » circule aussitôt parmi l’équipage du Saint-Michel, mais leur identité n’est pas encore établie."
     ]
@@ -163,7 +163,7 @@ window.PAVILLON_LORE = [
     "details": [
       "Le groupe ne connaît encore ni le nom de ce peuple, ni son organisation, ni ses intentions au-delà de l’embuscade.",
       "Les premiers individus aperçus portent des peintures corporelles et utilisent des arcs.",
-      "Une volée de flèches blesse Barron Bayard au bras gauche.",
+      "Une volée de flèches blesse Baron Bayard au bras gauche.",
       "Le site utilise volontairement un terme générique tant qu’une identité plus précise n’a pas été établie en jeu."
     ]
   }
