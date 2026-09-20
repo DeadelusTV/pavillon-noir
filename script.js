@@ -320,19 +320,6 @@ function renderPersonnage(p) {
         </div>
       </header>
 
-      ${p.fiche ? `
-        <section class="subsection character-full-sheet-section character-full-sheet-section--prominent">
-          <div class="section-heading">
-            <p class="eyebrow">Feuille de personnage</p>
-            <h2>Fiche complète</h2>
-            <p>La fiche complète du personnage est affichée ci-dessous. Clique dessus pour l’ouvrir en grand.</p>
-          </div>
-          <a class="character-full-sheet" href="${escapeHtml(p.fiche)}" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir la fiche complète de ${escapeHtml(p.nom)}">
-            <img src="${escapeHtml(p.fiche)}" alt="Fiche complète de ${escapeHtml(p.nom)}" loading="eager" />
-          </a>
-        </section>
-      ` : ""}
-
       <div class="detail-grid">
         <section class="prose-panel">
           <h2>Histoire connue</h2>
