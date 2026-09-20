@@ -53,7 +53,7 @@ window.PAVILLON_PERSONNAGES = [
   },
   {
     "id": "baron-bayard",
-    "nom": "Barron Bayard",
+    "nom": "Baron Bayard",
     "nomComplet": "Jean-Nicolas Marie de Paladru dit Baron Bayard",
     "role": "Aspirant de marine",
     "origine": "Isère",
