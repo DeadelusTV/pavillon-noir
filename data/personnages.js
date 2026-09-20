@@ -5,15 +5,15 @@ window.PAVILLON_PERSONNAGES = [
   {
     "id": "solenn-brissac",
     "nom": "Solenn Brissac",
-    "surnom": "La Lame de Rhum",
+    "surnom": "Lame-de-rhum",
     "role": "Chirurgienne du Saint-Michel",
     "origine": "Brest",
     "age": "Non précisé",
-    "resume": "Chirurgienne diplômée aux méthodes peu orthodoxes, grande amatrice de jeu et de spiritueux, toujours accompagnée de son perroquet Ratafia.",
+    "resume": "Chirurgienne diplômée formée à Brest, aussi à l’aise face au sang et aux blessures qu’avec une bouteille de rhum, toujours accompagnée de son perroquet Ratafia.",
     "histoire": [
-      "Solenn est une chirurgienne diplômée de l'école de Brest. Elle évoque un départ mouvementé de l'établissement, lié à une conduite indécente et à un usage immodéré de spiritueux médicinaux.",
-      "Malgré cette réputation, ses compétences médicales sont réelles. Elle affirme pouvoir réparer des membres de manière peu orthodoxe et se montre très efficace lorsqu'elle soigne Dorak Mojomeurs.",
-      "Elle voyage avec Ratafia, un perroquet nommé d'après un ancien professeur qui la détestait."
+      "« Y a des capitaines qu'on remplace. Des charpentiers, ça se trouve à tous les ports. Mais moi ? Une bonne chirurgienne qui tient l’coup face au sang, à la vermine, aux boulets dans l’abdomen et à trois pintes de rhum par jour ? T’en trouveras pas deux comme moi dans tout l’Archipel. »",
+      "« Moi c’est Solenn Brissac, surnommée la Lame-de-rhum, chirurgienne diplômée — si si, avec des vrais papiers ! — formée à Brest, chassée pour “conduite indécente et usage immodéré des spiritueux médicinaux”. Depuis, j’passe ma vie en mer. J’ouvre des ventres, je recouds des bras, j’ampute dans le rire, et je soigne mieux que n’importe quel toubib de marine. Tant que j’ai mon scalpel, mon perroquet, et un fond de rhum dans la bouteille… le monde peut bien saigner. »",
+      "Elle fixe son interlocuteur, l’œil un peu injecté et le sourire à demi-fendu. Sur son épaule, son perroquet ponctue la scène d’un sinistre « An-ti-sep-tique ! An-ti-sep-tique ! »."
     ],
     "traits": [
       "Très compétente en soins",
@@ -54,15 +54,16 @@ window.PAVILLON_PERSONNAGES = [
   {
     "id": "baron-bayard",
     "nom": "Barron Bayard",
-    "nomComplet": "Baron Jean Nicholas Marie de Paladru",
+    "nomComplet": "Jean-Nicolas Marie de Paladru dit Baron Bayard",
     "role": "Aspirant de marine",
     "origine": "Isère",
-    "age": "Non précisé",
-    "resume": "Jeune noble turbulent envoyé dans la marine pour apprendre la discipline, tout en rêvant secrètement d'aventure et de liberté.",
+    "age": "24 ans",
+    "resume": "Noble savoyard de 24 ans, élégant et charismatique, qui quitte une jeunesse agitée et les responsabilités de son rang pour chercher l’aventure et la liberté dans la marine marchande.",
     "histoire": [
-      "Issu d'une famille noble de l'Isère, Bayard a connu une jeunesse turbulente, bagarreuse et orgueilleuse.",
-      "Ses parents l'ont envoyé dans la marine pour lui apprendre la discipline et, peut-être, redorer l'image d'une famille vieillissante.",
-      "Sous ce projet très convenable se cache un objectif nettement moins sage : mener une vie d'aventure et de liberté."
+      "Jean-Nicolas Marie de Paladru dit Baron Bayard, noble savoyard de 24 ans, incarne l’élégance et la prestance de la haute noblesse française du début du XVIIIe siècle. Il mesure environ 1,85 m, avec une silhouette élancée et gracieuse, sans être excessivement musclé. Son visage est harmonieux, aux traits fins et réguliers, avec une expression confiante et charismatique.",
+      "Ses cheveux bruns, légèrement ondulés, encadrent un front dégagé. Il ne porte pas de perruque, ce qui le distingue des modes de cour les plus strictes. Ses yeux bleus perçants renforcent cette impression d’assurance et d’ambition. Il porte une tenue richement ornée de velours bleu roi, brodée de fleurs de lys dorées, ainsi qu’une rapière à la poignée finement ouvragée, davantage bijou de statut que simple arme.",
+      "Originaire de l’Isère, il a passé une jeunesse troublée par de nombreux écarts de conduite qui lui ont valu maintes remontrances de ses précepteurs et de ses parents. Trouvant toujours le bon mot pour se sortir des ennuis, il n’avait pourtant qu’un seul rêve : échapper aux responsabilités d’une vie de noblion.",
+      "Il part ainsi pour la côte atlantique afin de faire ses classes dans la marine marchande, avec l’espoir de rejoindre le Nouveau Monde et d’y trouver la liberté. Devant les ports, la mer et les navires, il mêle l’assurance de son rang à une indépendance qui cadre beaucoup moins avec la vie qu’on avait prévue pour lui."
     ],
     "traits": [
       "Noble",
@@ -106,11 +107,11 @@ window.PAVILLON_PERSONNAGES = [
     "role": "Marin · Aspirant canonnier",
     "origine": "Nantes",
     "age": "17 ans",
-    "resume": "Jeune Nantais issu d'une famille pauvre, lecteur passionné d'histoires navales qui rêve de devenir canonnier.",
+    "resume": "Jeune Nantais de 17 ans issu d’une famille pauvre, qui a eu la chance d’apprendre à lire et rêve de se faire recruter comme canonnier sans révéler son véritable âge.",
     "histoire": [
-      "Anduin vient de Nantes et d'une famille pauvre, mais il a eu la chance d'apprendre à lire.",
-      "Sa mère lui racontait des histoires de navires de guerre, de piraterie et de grandes batailles. Il a ensuite poursuivi cette fascination dans les livres.",
-      "Il souhaite être recruté comme canonnier et pense posséder une bonne dextérité pour tout ce qui demande de viser."
+      "« Je m’appelle Anduin Marlow. Je suis de Nantes. Je suis un jeune homme avec une carrure plutôt normale. Je suis issu d’une famille assez pauvre, mais j’ai eu la chance d’étudier et surtout d’apprendre à lire. »",
+      "« Ma mère me racontait souvent des histoires de navires de guerre et de piraterie, et j’ai toujours aimé ce genre d’histoires. »",
+      "« Mon but est de me faire recruter sur un navire en tant que canonnier, mais le problème, c’est que j’ai 17 ans… et ça, les gens autour de moi ne le savent pas ! »"
     ],
     "traits": [
       "Instruit",
