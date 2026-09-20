@@ -65,7 +65,10 @@ const personCard = (p) => {
         <h3>${escapeHtml(p.nom)}</h3>
         ${p.surnom ? `<p class="entity-subtitle">« ${escapeHtml(p.surnom)} »</p>` : ""}
         <p>${escapeHtml(p.resume)}</p>
-        <a class="card-link" href="#personnage-${p.id}">Voir la fiche <span aria-hidden="true">→</span></a>
+        <div class="character-card-links">
+          <a class="card-link" href="#personnage-${p.id}">Voir le profil <span aria-hidden="true">→</span></a>
+          ${p.fiche ? `<a class="card-link card-link--sheet" href="${escapeHtml(p.fiche)}" target="_blank" rel="noopener noreferrer">Fiche personnage <span aria-hidden="true">↗</span></a>` : ""}
+        </div>
       </div>
     </article>
   `;
@@ -313,8 +316,22 @@ function renderPersonnage(p) {
           <h1>${escapeHtml(p.nom)}</h1>
           ${p.surnom ? `<p class="character-surname">« ${escapeHtml(p.surnom)} »</p>` : ""}
           <p class="lede">${escapeHtml(p.resume)}</p>
+          ${p.fiche ? `<div class="cta-row"><a class="btn bronze" href="${escapeHtml(p.fiche)}" target="_blank" rel="noopener noreferrer">Voir la fiche personnage <span aria-hidden="true">↗</span></a></div>` : ""}
         </div>
       </header>
+
+      ${p.fiche ? `
+        <section class="subsection character-full-sheet-section character-full-sheet-section--prominent">
+          <div class="section-heading">
+            <p class="eyebrow">Feuille de personnage</p>
+            <h2>Fiche complète</h2>
+            <p>La fiche complète du personnage est affichée ci-dessous. Clique dessus pour l’ouvrir en grand.</p>
+          </div>
+          <a class="character-full-sheet" href="${escapeHtml(p.fiche)}" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir la fiche complète de ${escapeHtml(p.nom)}">
+            <img src="${escapeHtml(p.fiche)}" alt="Fiche complète de ${escapeHtml(p.nom)}" loading="eager" />
+          </a>
+        </section>
+      ` : ""}
 
       <div class="detail-grid">
         <section class="prose-panel">
@@ -340,6 +357,7 @@ function renderPersonnage(p) {
           ${tags(p.competences)}
         </aside>
       </div>
+
 
       ${p.relations?.length ? `
         <section class="subsection">

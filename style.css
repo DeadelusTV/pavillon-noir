@@ -278,3 +278,20 @@ footer{margin-top:50px;padding:34px 16px;text-align:center;color:#8d826f;border-
   .campaign-image--crop,.illustration-grid .campaign-image--crop{height:360px}
   .chronology-entry{grid-template-columns:48px 1fr;gap:14px}.chronology-marker{width:48px;height:48px}.chronology::before{left:23px}
 }
+
+
+/* Fiches complètes des personnages */
+.character-full-sheet-section{margin-top:46px}
+.character-full-sheet{display:block;max-width:900px;margin:0 auto;border:1px solid var(--line);background:#080706;box-shadow:var(--shadow);overflow:hidden}
+.character-full-sheet img{display:block;width:100%;height:auto;transition:transform .2s ease,filter .2s ease}
+.character-full-sheet:hover img{transform:scale(1.008);filter:brightness(1.04)}
+@media (max-width:760px){.character-full-sheet-section{margin-top:34px}}
+
+
+/* Accès explicite aux fiches complètes depuis l'Équipage */
+.character-card-links{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-top:auto}
+.card-link--sheet{color:#d9b56d}
+.character-full-sheet-section--prominent{margin-top:30px;margin-bottom:44px;padding-top:24px;border-top:1px solid var(--line)}
+.character-full-sheet-section--prominent .section-heading{text-align:center;max-width:760px;margin-left:auto;margin-right:auto}
+.character-full-sheet-section--prominent .character-full-sheet{max-width:980px}
+@media (max-width:760px){.character-card-links{align-items:flex-start;flex-direction:column;gap:8px}.character-full-sheet-section--prominent{margin-top:22px;margin-bottom:32px}}
