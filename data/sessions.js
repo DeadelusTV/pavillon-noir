@@ -9,8 +9,8 @@ window.PAVILLON_SESSIONS = [
     "titre": "Le premier départ",
     "date": "",
     "vod": {
-      "url": "https://www.twitch.tv/videos/2860900391",
-      "plateforme": "Twitch"
+      "url": "https://www.youtube.com/watch?v=aD_K_oZf4zA&list=PLOVkg-UBQ3zU&index=2",
+      "plateforme": "YouTube"
     },
     "image": "assets/saint-malo-session-01.png",
     "imageAlt": "Illustration de Saint-Malo utilisée pendant la Session 01",
@@ -79,8 +79,8 @@ window.PAVILLON_SESSIONS = [
     "titre": "Le prix de la traversée",
     "date": "",
     "vod": {
-      "url": "https://www.twitch.tv/videos/2867135011",
-      "plateforme": "Twitch"
+      "url": "https://www.youtube.com/watch?v=FVxcsy5XW7Y&list=PLOVkg-UBQ3zU&index=3&t=1s",
+      "plateforme": "YouTube"
     },
     "image": "assets/depart-saint-michel-session-01.png",
     "imageAlt": "Illustration du Saint-Michel quittant le port au début de la traversée",
