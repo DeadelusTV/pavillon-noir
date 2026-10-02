@@ -188,8 +188,8 @@ window.PAVILLON_SESSIONS = [
     "titre": "Naufragés",
     "date": "",
     "vod": {
-      "url": "https://www.twitch.tv/videos/2873379244",
-      "plateforme": "Twitch"
+      "url": "https://www.youtube.com/watch?v=vwEkXhAJmLw",
+      "plateforme": "YouTube"
     },
     "image": "assets/session-03-tempete.jpg",
     "imageAlt": "Illustration d'une tempête maritime utilisée au début de la Session 03",
