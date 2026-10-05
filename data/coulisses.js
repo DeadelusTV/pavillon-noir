@@ -57,7 +57,7 @@ window.PAVILLON_COULISSES = {
       "question": "Si les pirates proposent une alliance…",
       "gagnant": "Fuck l’autorité !",
       "autre": "On écoute le chef",
-      "consequence": "Le sondage est lancé vers 1:52:59 de la VOD, légèrement avant que le conflit d’autorité ne se matérialise pleinement en RP. Le chat choisit de passer outre l’autorité de Tenqneoo ; la partie voit ensuite les survivants se ranger derrière la position défendue par Baron."
+      "consequence": "Le choix du public accompagne le basculement des survivants contre l’autorité de Tenqneoo et leur soutien à la position défendue par Baron."
     }
   ],
   "illustrations": [

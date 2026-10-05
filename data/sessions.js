@@ -360,8 +360,7 @@ window.PAVILLON_SESSIONS = [
       "chasse-partie"
     ],
     "coulisses": [
-      "Un sondage est lancé dans le chat vers 1:52:59 de la VOD : « Si les pirates proposent une alliance… ». Le choix « Fuck l’autorité ! » l’emporte sur « On écoute le chef ».",
-      "Le vote est proposé un peu avant que la question d’autorité ne se matérialise pleinement en jeu. Il accompagne le basculement des survivants contre l’autorité de Tenqneoo ; le récapitulatif du sondage n’est relu par Deadelus qu’après la partie."
+      "Le public a choisi de passer outre l’autorité de Tenqneoo et de soutenir l’idée d’une alliance avec les pirates. L’autre possibilité était de suivre l’autorité du chef."
     ],
     "finTitre": "Alliés des pirates",
     "finTexte": "Une chasse-partie lie désormais les survivants du Saint-Michel aux pirates jusqu’à leur arrivée dans un port français. Le groupe quitte son campement pour rejoindre le leur, tandis que Tenqneoo est transporté sur un brancard."
