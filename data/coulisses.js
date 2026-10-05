@@ -89,6 +89,14 @@ window.PAVILLON_COULISSES = {
     {
       "titre": "Îles Vierges — Vue 2",
       "image": "assets/session-03-iles-vierges-02.jpg"
+    },
+    {
+      "titre": "Plage — Session 04",
+      "image": "assets/session-04-plage.jpg"
+    },
+    {
+      "titre": "Forêt — Session 04",
+      "image": "assets/session-04-foret.jpg"
     }
   ]
 };

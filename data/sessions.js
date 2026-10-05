@@ -286,10 +286,20 @@ window.PAVILLON_SESSIONS = [
       "url": "https://www.twitch.tv/videos/2891954274",
       "plateforme": "Twitch"
     },
-    "image": "",
-    "imageAlt": "",
+    "image": "assets/session-04-plage.jpg",
+    "imageAlt": "Vue des Îles Vierges utilisée comme décor de plage pendant la Session 04",
     "imageFin": "",
     "imageFinAlt": "",
+    "illustrations": [
+      {
+        "image": "assets/session-04-plage.jpg",
+        "alt": "Vue des Îles Vierges utilisée comme décor de plage pendant la Session 04"
+      },
+      {
+        "image": "assets/session-04-foret.jpg",
+        "alt": "Forêt sombre utilisée temporairement pendant l'embuscade de la Session 04"
+      }
+    ],
     "resumeCourt": "L’embuscade dans la forêt tourne court lorsque Baron Bayard et Aldry Baratte parviennent à ramener leur groupe au camp. À l’aube, les recherches confirment que deux des trois patrouilleurs disparus sont morts, tandis que le troisième reste introuvable. En explorant la côte, les survivants découvrent des bûchers contenant des restes humains puis viennent en aide à des marins attaqués par les habitants autochtones. Ils reconnaissent alors le sloop croisé avant le naufrage : ses hommes sont bien des pirates français. La perspective d’une alliance provoque la rupture avec Tenqneoo, avant que Baron ne signe finalement une chasse-partie liant les deux équipages jusqu’à leur arrivée dans un port français.",
     "resumeDetaille": [
       "La session reprend au cœur de l’embuscade qui avait interrompu la précédente. Baron Bayard et Aldry Baratte se trouvent dans la forêt avec deux matelots, Nelya_kitsune et Justlne, tandis que les assaillants dissimulés dans les arbres continuent de tirer à l’arc. Baron est déjà blessé au bras gauche par la flèche reçue quelques instants plus tôt.",
