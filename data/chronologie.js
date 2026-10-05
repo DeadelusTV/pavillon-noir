@@ -118,5 +118,47 @@ window.PAVILLON_CHRONOLOGIE = [
     "titre": "Première rencontre sur l’île",
     "texte": "Une embuscade éclate dans la forêt. Baron est blessé par une flèche et les naufragés découvrent pour la première fois les habitants autochtones de l’île.",
     "lien": "#lore-habitants-autochtones"
+  },
+  {
+    "annee": "1715 · Îles Vierges",
+    "titre": "Repli sous les flèches",
+    "texte": "Baron organise le retour vers le camp après l’embuscade. Le groupe ne perd aucun homme, mais Aldry est blessé à la jambe pendant la retraite.",
+    "lien": "#session-04"
+  },
+  {
+    "annee": "1715 · Îles Vierges",
+    "titre": "Deux morts, un disparu",
+    "texte": "Les recherches reprennent au lever du jour. Sur les trois patrouilleurs disparus, deux sont désormais retrouvés morts ; le troisième reste introuvable.",
+    "lien": "#session-04"
+  },
+  {
+    "annee": "1715 · Îles Vierges",
+    "titre": "Les bûchers de l’île",
+    "texte": "En longeant la côte, le groupe découvre plusieurs grands bûchers contenant des restes humains. Leur origine et leur fonction restent inconnues.",
+    "lien": "#lore-buchers-ile"
+  },
+  {
+    "annee": "1715 · Îles Vierges",
+    "titre": "Le sloop retrouvé",
+    "texte": "Les compagnons viennent en aide à des marins attaqués sur la plage et reconnaissent leur navire : il s’agit du sloop rencontré avant la tempête. Son équipage est bien composé de pirates français.",
+    "lien": "#lore-sloop-sans-pavillon"
+  },
+  {
+    "annee": "1715 · Îles Vierges",
+    "titre": "Rupture avec Tenqneoo",
+    "texte": "Baron défend publiquement une alliance avec les pirates et la majorité des survivants se range derrière lui. Darlingsamaa tire dans la jambe de Tenqneoo, qui est ensuite roué de coups par plusieurs marins.",
+    "lien": "#pnj-tank-neo"
+  },
+  {
+    "annee": "1715 · Îles Vierges",
+    "titre": "La chasse-partie",
+    "texte": "Baron conclut avec les pirates un contrat liant les deux équipages jusqu’à leur arrivée dans un port français.",
+    "lien": "#lore-chasse-partie"
+  },
+  {
+    "annee": "1715 · Îles Vierges",
+    "titre": "Vers le camp des pirates",
+    "texte": "Les survivants abandonnent leur campement pour rejoindre celui des pirates. Tenqneoo, sévèrement blessé mais vivant, est transporté sur un brancard.",
+    "lien": "#session-04"
   }
 ];

@@ -117,15 +117,16 @@ window.PAVILLON_LORE = [
     "id": "sloop-sans-pavillon",
     "categorie": "Navires",
     "titre": "Le sloop sans pavillon",
-    "sousTitre": "Rencontre des Sessions 02 et 03",
-    "resume": "Le sloop aperçu à la fin de la Session 02 demande de l’aide au Saint-Michel avant de hisser un pavillon noir lorsque Dany le Pinguy refuse de lui répondre. La rumeur de pirates se répand alors à bord, sans confirmation de leur identité réelle.",
+    "sousTitre": "Sloop pirate français · Sessions 02 à 04",
+    "resume": "Le sloop rencontré avant le naufrage appartient bien à un équipage de pirates français. Retrouvés sur l’île après la tempête, ses hommes concluent finalement une chasse-partie avec les survivants du Saint-Michel.",
     "details": [
-      "Sa voilure est en mauvais état et son équipage paraît beaucoup trop nombreux pour un bâtiment de cette taille.",
+      "Sa voilure est déjà en mauvais état lors de la première rencontre et son équipage paraît beaucoup trop nombreux pour un bâtiment de cette taille.",
       "Ses hommes affirment avoir dérivé loin des côtes après avoir été pris en chasse par le navire anglais.",
-      "Ils demandent de la toile pour réparer et de l’eau, qui commence à leur manquer.",
-      "Dany le Pinguy refuse toute assistance et ordonne que personne ne leur réponde.",
-      "Le sloop hisse alors un pavillon noir et tire un coup de semonce.",
-      "Le mot « pirate » circule aussitôt parmi l’équipage du Saint-Michel, mais leur identité n’est pas encore établie."
+      "Ils demandent de la toile et de l’eau au Saint-Michel ; Dany le Pinguy refuse de les aider et fait tirer de la mitraille pour les maintenir à distance.",
+      "Après la tempête, le sloop est retrouvé échoué ou immobilisé près d’un campement fortifié sur la même île que les survivants du Saint-Michel.",
+      "La Session 04 confirme que son équipage est composé de pirates français.",
+      "Les deux groupes combattent le même jour contre les habitants autochtones, puis commencent à négocier une alliance.",
+      "Une chasse-partie finit par lier les deux équipages jusqu’à leur arrivée dans un port français."
     ]
   },
   {
@@ -146,12 +147,14 @@ window.PAVILLON_LORE = [
     "categorie": "Lieux",
     "titre": "Le camp des survivants",
     "sousTitre": "Plage de l’île · Session 03",
-    "resume": "Après le naufrage du Saint-Michel, les survivants établissent un camp de fortune sur la plage et organisent leur survie autour des ressources récupérées dans l’épave.",
+    "resume": "Après le naufrage du Saint-Michel, les survivants établissent un camp de fortune sur la plage. À la fin de la Session 04, ils l’abandonnent pour rejoindre le camp mieux défendu des pirates.",
     "details": [
       "Le groupe ne compte plus qu’environ 25 survivants.",
       "Le maître charpentier construit des abris de fortune.",
       "Eau, nourriture, médicaments, armes et matériel sont récupérés puis regroupés au camp.",
-      "Des tours de garde sont organisés pendant la nuit après la découverte d’une fumée au nord-ouest de l’île."
+      "Des tours de garde sont organisés pendant la nuit après la découverte d’une fumée au nord-ouest de l’île.",
+      "Après les premières attaques dans la forêt, Tenqneoo interdit les sorties nocturnes et les recherches reprennent à la lumière du jour.",
+      "À la fin de la Session 04, les survivants rassemblent leurs affaires et quittent ce camp pour rejoindre celui des pirates."
     ]
   },
   {
@@ -159,12 +162,46 @@ window.PAVILLON_LORE = [
     "categorie": "Rencontres",
     "titre": "Habitants autochtones de l’île",
     "sousTitre": "Identité précise encore inconnue",
-    "resume": "La Session 03 s’achève sur la première rencontre des naufragés avec les habitants autochtones de l’île, au cours d’une embuscade dans la forêt.",
+    "resume": "Les survivants affrontent à plusieurs reprises les habitants autochtones de l’île. Leur identité précise, leur organisation et les raisons de leurs attaques restent encore inconnues.",
     "details": [
       "Le groupe ne connaît encore ni le nom de ce peuple, ni son organisation, ni ses intentions au-delà de l’embuscade.",
       "Les premiers individus aperçus portent des peintures corporelles et utilisent des arcs.",
       "Une volée de flèches blesse Baron Bayard au bras gauche.",
-      "Le site utilise volontairement un terme générique tant qu’une identité plus précise n’a pas été établie en jeu."
+      "Le site utilise volontairement un terme générique tant qu’une identité plus précise n’a pas été établie en jeu.",
+      "Au début de la Session 04, leurs tirs depuis les arbres forcent Baron, Aldry et les deux matelots qui les accompagnent à se replier vers le camp.",
+      "Plus tard, un groupe beaucoup plus nombreux attaque le campement des marins du sloop sur la plage.",
+      "L’intervention des quatre compagnons contribue à les déstabiliser ; ils finissent par se retirer.",
+      "Le lien éventuel entre ces habitants et les bûchers contenant des restes humains découverts sur l’île n’est pas établi."
+    ]
+  },
+  {
+    "id": "buchers-ile",
+    "categorie": "Objets & mystères",
+    "titre": "Les bûchers de l’île",
+    "sousTitre": "Restes humains · Origine inconnue",
+    "resume": "Plusieurs grands bûchers contenant des ossements humains sont découverts le long de la côte pendant la Session 04. Leur fonction et leurs responsables restent inconnus.",
+    "details": [
+      "Les bûchers paraissent relativement récents, mais antérieurs à la tempête qui a provoqué le naufrage du Saint-Michel.",
+      "Des ossements humains sont visibles dans les cendres.",
+      "Le groupe ne trouve pas d’élément permettant de déterminer s’il s’agit d’un rituel, de funérailles, d’exécutions ou d’autre chose.",
+      "Les traces observées autour des lieux semblent rejoindre la plage.",
+      "L’idée que les responsables puissent venir d’une autre île est formulée par les personnages, mais n’est pas confirmée.",
+      "Les bûchers découverts ne correspondent pas directement à la colonne de fumée observée la veille par Anduin."
+    ]
+  },
+  {
+    "id": "chasse-partie",
+    "categorie": "Piraterie",
+    "titre": "La chasse-partie",
+    "sousTitre": "Contrat d’association entre équipages",
+    "resume": "Un contrat utilisé dans le milieu pirate pour formaliser une association, fixer des règles communes et donner un poids réel à la parole engagée.",
+    "details": [
+      "Le groupe découvre ce principe pendant la Session 04 avant de négocier avec les pirates du sloop.",
+      "La chasse-partie fixe des règles que les signataires s’engagent à respecter.",
+      "Rompre volontairement un tel accord expose un pirate à perdre sa réputation et donc une partie de sa capacité à traiter avec les autres.",
+      "La chasse-partie signée par Baron et les pirates engage les deux équipages à se soutenir et à ne pas se trahir.",
+      "Cet accord reste valable jusqu’à ce qu’ils atteignent un port français.",
+      "Les deux groupes n’ont pas besoin d’être amis : l’objectif est surtout d’assumer publiquement leur association et de soutenir l’initiative de l’autre tant que le contrat s’applique."
     ]
   }
 ];

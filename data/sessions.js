@@ -1,5 +1,5 @@
 // ONGLET SESSIONS
-// Chaque session est un bloc indépendant. Session 03 est intégrée ci-dessous.
+// Chaque session est un bloc indépendant. Session 04 est intégrée ci-dessous.
 
 window.PAVILLON_SESSIONS = [
   {
@@ -91,7 +91,7 @@ window.PAVILLON_SESSIONS = [
     "resumeCourt": "Après plusieurs jours de navigation vers les Indes occidentales, la vie à bord du Saint-Michel se durcit brutalement. Une violente tempête provoque de nombreuses pertes et révèle la sévérité du capitaine Dany le Pinguy, dont les sanctions font monter la tension entre marins et officiers. Tandis qu’un meurtre trouble encore davantage l’équipage, le navire poursuit difficilement sa route vers les Antilles. À l’approche de sa destination, une frégate sous pavillon anglais ouvre le feu sur le Saint-Michel, avant qu’un mystérieux sloop sans pavillon n’apparaisse droit devant eux.",
     "resumeDetaille": [
       "La traversée du Saint-Michel commence relativement calmement. Chad et Accra, rencontrés lors de la bagarre de Saint-Malo, ont finalement rejoint l’équipage comme matelots. Pour les quatre compagnons, les premiers jours permettent surtout de prendre leurs marques dans un environnement bien différent de la terre ferme.",
-      "Baron Bayard, Anduin Marlow et Aldry Barattete suivent le rythme rigoureux des quarts, alternant périodes de travail et de repos, tandis que Solenn Brissac, en tant que chirurgienne, reste principalement d’astreinte. Elle découvre toutefois que ses compétences médicales ne la protègent absolument pas du mal de mer et passe une partie du début du voyage à s’y acclimater. Tous découvrent également la promiscuité extrême du bâtiment, les vêtements constamment humides, la nourriture de plus en plus monotone et les différences de statut qui organisent la vie à bord.",
+      "Baron Bayard, Anduin Marlow et Aldry Baratte suivent le rythme rigoureux des quarts, alternant périodes de travail et de repos, tandis que Solenn Brissac, en tant que chirurgienne, reste principalement d’astreinte. Elle découvre toutefois que ses compétences médicales ne la protègent absolument pas du mal de mer et passe une partie du début du voyage à s’y acclimater. Tous découvrent également la promiscuité extrême du bâtiment, les vêtements constamment humides, la nourriture de plus en plus monotone et les différences de statut qui organisent la vie à bord.",
       "Le voyage apporte aussi quelques évolutions plus personnelles. Dorak Maugemeur, ayant remarqué l’intérêt d’Aldry pour son carnet de navigation malgré son incapacité à le lire, lui propose de lui apprendre à lire. Après une courte hésitation, Aldry accepte et commence ses premières leçons avec le pilote.",
       "Les premiers jours se déroulent sans incident majeur. Le groupe participe même à une tradition maritime lors du passage du tropique du Cancer. Les marins n’ayant encore jamais franchi cette limite doivent l’admettre devant le quartier-maître, déguisé en juge pour l’occasion, avant de recevoir plusieurs seaux d’eau de mer sur la tête en guise de baptême. Aucun des quatre compagnons ne l’ayant déjà traversé, tous passent par le rituel.",
       "Cette relative tranquillité prend brutalement fin lorsqu’un nuage noir apparaît à l’horizon. Le capitaine comprend rapidement qu’une forte tempête se dirige vers eux et ordonne de préparer le navire. Baron relaie les ordres, tandis qu’Aldry et Anduin participent aux manœuvres visant à réduire la voilure et sécuriser le bâtiment. Peu après, les éléments se déchaînent.",
@@ -275,5 +275,85 @@ window.PAVILLON_SESSIONS = [
     ],
     "finTitre": "Première rencontre",
     "finTexte": "Dans la forêt, une volée de flèches blesse Baron. Les torches révèlent alors les habitants autochtones de l’île parmi les arbres. La session s’arrête au début de l’embuscade."
+  },
+  {
+    "id": "session-04",
+    "numero": "Session 04",
+    "saison": "Saison 1",
+    "titre": "La chasse-partie",
+    "date": "",
+    "vod": {
+      "url": "https://www.twitch.tv/videos/2891954274",
+      "plateforme": "Twitch"
+    },
+    "image": "",
+    "imageAlt": "",
+    "imageFin": "",
+    "imageFinAlt": "",
+    "resumeCourt": "L’embuscade dans la forêt tourne court lorsque Baron Bayard et Aldry Baratte parviennent à ramener leur groupe au camp. À l’aube, les recherches confirment que deux des trois patrouilleurs disparus sont morts, tandis que le troisième reste introuvable. En explorant la côte, les survivants découvrent des bûchers contenant des restes humains puis viennent en aide à des marins attaqués par les habitants autochtones. Ils reconnaissent alors le sloop croisé avant le naufrage : ses hommes sont bien des pirates français. La perspective d’une alliance provoque la rupture avec Tenqneoo, avant que Baron ne signe finalement une chasse-partie liant les deux équipages jusqu’à leur arrivée dans un port français.",
+    "resumeDetaille": [
+      "La session reprend au cœur de l’embuscade qui avait interrompu la précédente. Baron Bayard et Aldry Baratte se trouvent dans la forêt avec deux matelots, Nelya_kitsune et Justlne, tandis que les assaillants dissimulés dans les arbres continuent de tirer à l’arc. Baron est déjà blessé au bras gauche par la flèche reçue quelques instants plus tôt.",
+      "Comprenant rapidement que leurs adversaires profitent largement du terrain, Baron organise le repli vers la plage et le camp. Le groupe parvient à se dégager sans perdre d’homme, même si Aldry reçoit à son tour une flèche à la jambe droite pendant la retraite. Anduin, resté au camp, réveille Solenn lorsque les cris et les coups de feu se font entendre. La chirurgienne soigne ensuite les blessures de Baron et d’Aldry.",
+      "Tenqneoo décide que plus personne ne doit pénétrer dans la forêt tant que la nuit n’est pas terminée. Au lever du jour, les recherches reprennent afin de retrouver la patrouille disparue. Le premier corps découvert la veille est récupéré pour être enterré et les recherches permettent d’établir le bilan : sur les trois hommes portés disparus, deux sont désormais retrouvés morts. Le troisième reste introuvable. La possibilité qu’il ait été emmené vivant est évoquée, sans être confirmée.",
+      "Le groupe tente ensuite d’en apprendre davantage sur l’île et sur la colonne de fumée observée précédemment. En longeant la côte pour conserver des repères, les quatre compagnons découvrent plusieurs grands bûchers relativement récents, mais antérieurs à la tempête. Des ossements humains sont visibles dans les cendres. Rien ne permet cependant d’expliquer pourquoi ces corps ont été brûlés ni d’établir un lien certain avec les habitants rencontrés dans la forêt.",
+      "Des traces visibles autour des bûchers semblent rejoindre la plage, ce qui amène les personnages à envisager que certaines personnes aient pu venir d’une autre île. Cette idée reste toutefois une hypothèse. Plusieurs autres îles de l’archipel sont visibles à l’horizon, mais les moyens dont disposent les survivants ne permettent pas d’observer précisément ce qui s’y trouve.",
+      "En poursuivant leur exploration, les quatre compagnons entendent soudain des coups de feu un peu plus loin. Aldry part en éclaireur et découvre une petite installation fortifiée sur la plage. Une poignée de marins armés y est assaillie par un groupe beaucoup plus nombreux d’habitants autochtones. Après discussion, les compagnons décident d’intervenir en faveur des marins.",
+      "Ils contournent la zone par la forêt et ouvrent le feu depuis le flanc avant que le combat ne se transforme en affrontement rapproché. Aldry reçoit un violent coup au ventre et Anduin est blessé au bras gauche, tandis que Baron et Solenn participent eux aussi directement au combat. L’intervention du groupe déstabilise les assaillants, qui finissent par se retirer sous les tirs.",
+      "Une fois le calme revenu, les compagnons distinguent derrière la barricade un navire en très mauvais état. Ils le reconnaissent immédiatement : il s’agit du sloop rencontré avant la tempête, celui dont l’équipage avait demandé de l’eau et de la toile au Saint-Michel avant de hisser un pavillon noir. Les hommes qui viennent d’être secourus sont français et confirment progressivement ce que le groupe soupçonne désormais : ce sont bien des pirates.",
+      "Les deux groupes se trouvent dans une situation assez proche. Le sloop a lui aussi souffert de la tempête et son équipage a déjà subi des pertes sur l’île. Baron propose une entraide : les survivants du Saint-Michel disposent encore d’hommes valides et de ressources, tandis que les pirates possèdent un navire qui, bien que très endommagé, offre davantage d’espoir que l’épave du Saint-Michel. Un rendez-vous est fixé quelques heures plus tard afin que des représentants des deux camps négocient réellement les termes d’un accord.",
+      "De retour au camp, Baron fait volontairement son rapport devant l’ensemble des survivants. Il présente l’alliance avec les pirates comme une solution de circonstance susceptible d’améliorer leurs chances de survie. Tenqneoo prend très mal le fait que Baron ait engagé de telles discussions sans son autorisation et lui reproche d’agir comme s’il était le chef du groupe.",
+      "Baron répond que la survie des hommes doit primer sur la stricte hiérarchie et défend l’idée d’une décision collective. Son discours convainc une grande partie des matelots, qui montrent clairement qu’ils ne souhaitent plus suivre Tenqneoo comme auparavant. Baron n’est pas officiellement nommé capitaine ni chef, mais il devient de fait celui que les hommes choisissent d’écouter.",
+      "La rupture devient violente lorsque Darlingsamaa s’approche de Tenqneoo avec un pistolet. Après avoir rappelé qu’il ne souhaite pas voir un chef autoritaire simplement remplacé par un autre, il tire dans la jambe du second. Plusieurs marins profitent ensuite de la situation pour lui faire payer les brutalités et humiliations accumulées depuis la traversée. Tenqneoo survit, mais est laissé inconscient et sévèrement blessé.",
+      "Solenn prend en charge Tenqneoo. Les soins permettent de le maintenir en vie, mais ses blessures entraînent une séquelle importante : il conserve désormais un poumon détruit, ce qui l’affaiblira durablement. Pendant ce temps, le groupe découvre le principe de la chasse-partie, un contrat utilisé par les pirates pour formaliser leurs associations et rendre la parole donnée opposable à la réputation de chacun.",
+      "Pour le rendez-vous avec les pirates, Baron et Aldry se présentent comme les deux émissaires annoncés. Anduin se place à distance avec son mousquet afin de pouvoir les couvrir si la négociation tourne mal. Les pirates arrivent eux aussi à deux ; ni leur capitaine ni les hommes présents ne donnent de nom qui puisse être retenu avec certitude.",
+      "La négociation est laborieuse mais aboutit. Baron signe une chasse-partie avec les pirates. Les deux équipages s’engagent à se soutenir et à ne pas se trahir jusqu’à ce qu’ils atteignent un port français. Ils ne deviennent pas amis pour autant, mais doivent publiquement assumer leur association et soutenir l’initiative de l’autre groupe tant que le contrat reste en vigueur.",
+      "Les pirates proposent enfin aux survivants de quitter leur campement, trop exposé, pour rejoindre leur position mieux défendue. Le groupe rassemble donc ses affaires et se met en route. Tenqneoo, toujours incapable de marcher, est transporté sur un brancard. La session s’achève alors que les anciens membres du Saint-Michel prennent le chemin du camp pirate : ils sont désormais officiellement associés à ceux qu’ils avaient encore combattus quelques jours plus tôt."
+    ],
+    "evenements": [
+      "Baron organise le repli après l’embuscade dans la forêt",
+      "Aldry est blessé à la jambe pendant la retraite",
+      "Nelya_kitsune et Justlne survivent au repli et regagnent le camp",
+      "Deux des trois patrouilleurs disparus sont désormais confirmés morts",
+      "Le troisième patrouilleur reste porté disparu",
+      "Le groupe découvre de grands bûchers contenant des restes humains",
+      "Des coups de feu conduisent les compagnons vers un groupe de marins attaqué sur la plage",
+      "Les quatre personnages interviennent et contribuent au repli des habitants autochtones",
+      "Le navire des marins est reconnu comme le sloop rencontré avant la tempête",
+      "Le groupe confirme qu’il s’agit de pirates français",
+      "Baron propose une alliance de circonstance avec les pirates",
+      "Tenqneoo conteste l’initiative de Baron et son autorité est rejetée par une grande partie des survivants",
+      "Darlingsamaa tire dans la jambe de Tenqneoo, ensuite roué de coups par plusieurs marins",
+      "Tenqneoo survit mais conserve un poumon détruit",
+      "Baron devient une figure d’autorité de fait sans être officiellement nommé chef",
+      "Baron et les pirates signent une chasse-partie valable jusqu’à l’arrivée dans un port français",
+      "Les survivants abandonnent leur camp pour rejoindre celui des pirates"
+    ],
+    "personnages": [
+      "solenn-brissac",
+      "baron-bayard",
+      "anduin-marleau",
+      "aldry-barat"
+    ],
+    "pnj": [
+      "dorak-mojomeurs",
+      "tank-neo",
+      "darling-sama",
+      "nelya-kitsune",
+      "justlne"
+    ],
+    "lore": [
+      "iles-vierges",
+      "camp-survivants",
+      "habitants-autochtones",
+      "buchers-ile",
+      "sloop-sans-pavillon",
+      "chasse-partie"
+    ],
+    "coulisses": [
+      "Un sondage est lancé dans le chat vers 1:52:59 de la VOD : « Si les pirates proposent une alliance… ». Le choix « Fuck l’autorité ! » l’emporte sur « On écoute le chef ».",
+      "Le vote est proposé un peu avant que la question d’autorité ne se matérialise pleinement en jeu. Il accompagne le basculement des survivants contre l’autorité de Tenqneoo ; le récapitulatif du sondage n’est relu par Deadelus qu’après la partie."
+    ],
+    "finTitre": "Alliés des pirates",
+    "finTexte": "Une chasse-partie lie désormais les survivants du Saint-Michel aux pirates jusqu’à leur arrivée dans un port français. Le groupe quitte son campement pour rejoindre le leur, tandis que Tenqneoo est transporté sur un brancard."
   }
 ];

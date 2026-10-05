@@ -49,6 +49,10 @@ window.PAVILLON_PERSONNAGES = [
       {
         "session": "Session 03",
         "texte": "Soigne les survivants du naufrage, identifie un puissant narcotique local pour soulager les blessés les plus graves et finit elle-même par s’en administrer après les soins."
+      },
+      {
+        "session": "Session 04",
+        "texte": "Réveillée en urgence pendant l’embuscade, soigne Baron et Aldry puis participe au combat sur la plage. Elle prend ensuite en charge Tenqneoo après la rupture avec l’équipage ; il survit, mais conserve une grave séquelle pulmonaire."
       }
     ]
   },
@@ -100,6 +104,10 @@ window.PAVILLON_PERSONNAGES = [
       {
         "session": "Session 03",
         "texte": "Participe activement à l’évacuation du Saint-Michel, gagne la confiance d’une partie des survivants jusqu’à devenir leur chef officieux, puis est blessé au bras gauche lors de l’embuscade dans la forêt."
+      },
+      {
+        "session": "Session 04",
+        "texte": "Organise le repli après l’embuscade, défend publiquement une alliance avec les pirates et voit la majorité des marins se ranger derrière lui plutôt que Tenqneoo. Sans devenir chef officiel, il devient leur principale figure d’autorité et signe la chasse-partie avec les pirates."
       }
     ]
   },
@@ -143,6 +151,10 @@ window.PAVILLON_PERSONNAGES = [
       {
         "session": "Session 03",
         "texte": "Participe à l’organisation du camp puis gagne les hauteurs pour observer l’île. Il repère une colonne de fumée au nord-ouest, révélant que les naufragés ne sont probablement pas seuls."
+      },
+      {
+        "session": "Session 04",
+        "texte": "Participe à l’affrontement contre les habitants autochtones sur la plage et est blessé au bras gauche. Lors de la négociation finale, il se place à distance avec son mousquet afin de couvrir Baron et Aldry."
       }
     ]
   },
@@ -192,6 +204,10 @@ window.PAVILLON_PERSONNAGES = [
       {
         "session": "Session 03",
         "texte": "Participe à la survie après le naufrage puis se distingue pendant les recherches nocturnes. Il suit les traces des marins disparus, repère un reflet métallique dans la forêt et échappe de justesse à une flèche au début de l’embuscade."
+      },
+      {
+        "session": "Session 04",
+        "texte": "Reçoit une flèche à la jambe pendant le repli, puis part en éclaireur lors de l’exploration de la côte et découvre les marins assiégés. Blessé de nouveau pendant le combat, il accompagne ensuite Baron comme second émissaire lors de la négociation avec les pirates."
       }
     ]
   }

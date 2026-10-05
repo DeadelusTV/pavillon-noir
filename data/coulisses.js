@@ -51,6 +51,13 @@ window.PAVILLON_COULISSES = {
       "gagnant": "Une population autochtone",
       "autre": "Des pirates",
       "consequence": "Le choix du public mène à l’embuscade et à la première rencontre des naufragés avec les habitants autochtones de l’île."
+    },
+    {
+      "session": "Session 04",
+      "question": "Si les pirates proposent une alliance…",
+      "gagnant": "Fuck l’autorité !",
+      "autre": "On écoute le chef",
+      "consequence": "Le sondage est lancé vers 1:52:59 de la VOD, légèrement avant que le conflit d’autorité ne se matérialise pleinement en RP. Le chat choisit de passer outre l’autorité de Tenqneoo ; la partie voit ensuite les survivants se ranger derrière la position défendue par Baron."
     }
   ],
   "illustrations": [

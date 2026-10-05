@@ -157,7 +157,9 @@ window.PAVILLON_PNJ = [
       "Identifié comme l’auteur du meurtre de Blackangele.",
       "Le groupe choisit de ne pas le dénoncer au capitaine.",
       "Baron Bayard le confronte et lui fait comprendre qu’il lui doit désormais la vie.",
-      "Fait partie des survivants présents après le naufrage du Saint-Michel."
+      "Fait partie des survivants présents après le naufrage du Saint-Michel.",
+      "Lors du conflit d’autorité avec Tenqneoo, il affirme ne pas vouloir remplacer un chef autoritaire par un autre.",
+      "Il tire dans la jambe de Tenqneoo, qui est ensuite roué de coups par plusieurs marins."
     ]
   },
   {
@@ -167,12 +169,45 @@ window.PAVILLON_PNJ = [
     "categorie": "Équipage",
     "premiere": "Session 03",
     "origineNom": "Nom issu d’un abonné de DeadelusTV",
-    "resume": "Second du Saint-Michel. Après le naufrage et la disparition de Dany le Pinguy, il devient le responsable officiel des survivants selon la hiérarchie du bord.",
+    "resume": "Second du Saint-Michel. Après le naufrage et la disparition de Dany le Pinguy, il prend d’abord la tête des survivants selon la hiérarchie du bord, mais son autorité s’effondre pendant la Session 04 lorsque les marins se rangent derrière Baron.",
     "faits": [
       "Aide Baron à organiser l’évacuation et la mise à l’eau de la chaloupe pendant le naufrage.",
       "Prend en charge une partie de l’organisation du camp et des tours de garde.",
       "Reste le responsable hiérarchique officiel en l’absence de Dany le Pinguy.",
-      "Une partie des matelots se montre néanmoins plus disposée à suivre Baron, devenu chef officieux."
+      "Une partie des matelots se montre néanmoins plus disposée à suivre Baron, devenu chef officieux.",
+      "S’oppose à l’idée d’une alliance avec les pirates et reproche à Baron d’avoir engagé des discussions sans son autorisation.",
+      "Une grande partie des survivants refuse finalement de continuer à le suivre comme chef.",
+      "Darlingsamaa lui tire dans la jambe avant que plusieurs marins ne le rouent de coups.",
+      "Solenn le maintient en vie, mais il conserve une séquelle durable : un poumon détruit.",
+      "Il est transporté sur un brancard lorsque les survivants quittent leur camp pour rejoindre celui des pirates."
+    ]
+  },
+  {
+    "id": "nelya-kitsune",
+    "nom": "Nelya_kitsune",
+    "role": "Matelot survivant du Saint-Michel",
+    "categorie": "Équipage",
+    "premiere": "Session 04",
+    "origineNom": "Nom issu d’un abonné de DeadelusTV",
+    "resume": "L’un des deux matelots qui accompagnent Baron et Aldry pendant l’embuscade au début de la Session 04.",
+    "faits": [
+      "Accompagne Baron et Aldry dans la forêt au moment de l’embuscade.",
+      "Participe au repli vers le camp.",
+      "Survit à l’affrontement et regagne le camp avec le groupe."
+    ]
+  },
+  {
+    "id": "justlne",
+    "nom": "Justlne",
+    "role": "Matelot survivant du Saint-Michel",
+    "categorie": "Équipage",
+    "premiere": "Session 04",
+    "origineNom": "Nom issu d’un abonné de DeadelusTV",
+    "resume": "L’un des deux matelots qui accompagnent Baron et Aldry pendant l’embuscade au début de la Session 04.",
+    "faits": [
+      "Accompagne Baron et Aldry dans la forêt au moment de l’embuscade.",
+      "L’une des torches du groupe est portée par l’un des deux matelots avant le repli.",
+      "Survit à l’affrontement et regagne le camp avec le groupe."
     ]
   }
 ];
