@@ -19,3 +19,4 @@ Les quatre fichiers doivent rester dans `assets/` :
 - fiche_solenn.png
 - fiche_baron.png
 - fiche_anduin.png
+F5
