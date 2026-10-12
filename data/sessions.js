@@ -1,5 +1,5 @@
 // ONGLET SESSIONS
-// Chaque session est un bloc indépendant. Session 04 est intégrée ci-dessous.
+// Chaque session est un bloc indépendant. Session 05 est intégrée ci-dessous.
 
 window.PAVILLON_SESSIONS = [
   {
@@ -364,5 +364,106 @@ window.PAVILLON_SESSIONS = [
     ],
     "finTitre": "Alliés des pirates",
     "finTexte": "Une chasse-partie lie désormais les survivants du Saint-Michel aux pirates jusqu’à leur arrivée dans un port français. Le groupe quitte son campement pour rejoindre le leur, tandis que Tenqneoo est transporté sur un brancard."
+  },
+  {
+    "id": "session-05",
+    "numero": "Session 05",
+    "saison": "Saison 1",
+    "titre": "Bienvenue dans les Caraïbes",
+    "date": "",
+    "vod": {
+      "url": "https://www.twitch.tv/videos/2898167544",
+      "plateforme": "Twitch"
+    },
+    "image": "assets/session-05-foret.jpg",
+    "imageAlt": "Forêt sombre utilisée comme décor au début de la Session 05",
+    "imageFin": "assets/session-05-saint-pierre.jpg",
+    "imageFinAlt": "Vue ancienne de Saint-Pierre en Martinique utilisée pendant la Session 05",
+    "illustrations": [
+      {
+        "image": "assets/session-05-foret.jpg",
+        "alt": "Forêt sombre utilisée comme décor au début de la Session 05"
+      },
+      {
+        "image": "assets/session-05-carte-petites-antilles.webp",
+        "alt": "Carte des Petites Antilles utilisée pour situer la route vers la Martinique"
+      }
+    ],
+    "resumeCourt": "Réunis avec les pirates, les survivants du Saint-Michel subissent plusieurs jours d’attaques sur des îles non cartographiées de la zone des Îles Vierges. Le sloop est incendié, berl_uue meurt et les réserves s’épuisent avant l’arrivée de la frégate française La Bonne Fortune. Darlingsamaa tue Tenqneoo juste avant le sauvetage, puis Baron obtient que le navire les dépose à Saint-Pierre, en Martinique. Sur la route, le retour d’un bâtiment sous pavillon anglais provoque une dernière alerte. Une fois à terre, le groupe choisit finalement de fusionner avec l’équipage de Roi_axolotl1er : Baron devient quartier-maître, Aldry second et Anduin commence son apprentissage auprès de Fireman_fr.",
+    "resumeDetaille": [
+      "La session reprend alors que les survivants du Saint-Michel vivent désormais aux côtés des pirates avec lesquels ils ont signé une chasse-partie. Le groupe découvre peu à peu la hiérarchie de ce nouvel équipage : Roi_axolotl1er en est le capitaine et Swananoux le quartier-maître, représentant des marins et conseiller du capitaine.",
+      "Les jours suivants restent consacrés à la survie. Solenn soigne les blessés des deux groupes et devient rapidement indispensable, tandis que Baron participe à l’organisation de la défense du camp. L’alliance née par nécessité commence ainsi à créer une véritable proximité entre les anciens du Saint-Michel et les pirates.",
+      "Au cours de la deuxième nuit, le sloop pirate prend feu. Personne ne voit directement qui a provoqué l’incendie et son origine reste donc inconnue. Le groupe perd avec lui son principal espoir de quitter rapidement les îles.",
+      "La situation se dégrade encore. Les habitants autochtones multiplient les attaques et semblent arriver en nombre croissant, notamment par pirogues. Les munitions et les vivres diminuent, l’accès à l’eau devient de plus en plus dangereux et les hommes accumulent le manque de sommeil. Lors d’un de ces assauts, berl_uue, qui avait survécu aux coups de fouet du Saint-Michel, est tué.",
+      "Dorak parvient à préciser leur situation sans pouvoir nommer leur île : les terres où ils se trouvent ne sont pas cartographiées. Elles restent situées approximativement dans la zone des Îles Vierges, mais leur emplacement exact demeure inconnu.",
+      "Alors que les deux équipages sont à bout, une voile française apparaît enfin. Une frégate militaire approche de l’archipel et déclenche un immense soulagement dans le camp. L’arrivée de ce navire pose cependant un problème immédiat : Tenqneoo pourrait raconter aux militaires sa propre version de la rupture avec les survivants.",
+      "Le groupe envisage de faire passer la mort de Tenqneoo pour une conséquence des combats sur l’île. Darlingsamaa tranche la question de manière beaucoup plus radicale : il tue Tenqneoo d’un coup de pistolet avant l’arrivée des Français, afin qu’il ne puisse jamais témoigner. La version destinée aux nouveaux arrivants devient alors celle d’une mort au combat.",
+      "Les militaires français débarquent et recueillent les survivants. Baron se présente comme le dernier officier encore en état de parler au nom des hommes du Saint-Michel et raconte leur traversée, l’attaque sous pavillon anglais puis le naufrage. Son statut de noble facilite nettement les échanges avec le capitaine français, Tickal86, lui-même issu de la noblesse sans porter pour autant le titre de baron.",
+      "Le bâtiment français se nomme La Bonne Fortune. Cette frégate militaire embarque les rescapés et les pirates, mais la vie à bord est loin d’être reposante : les nouveaux venus sont immédiatement mis à contribution dans un équipage qui manque de bras. Solenn bénéficie toutefois d’une situation plus favorable grâce à ses compétences de chirurgienne, tout comme Dorak en tant que pilote.",
+      "La Bonne Fortune doit poursuivre sa route vers Saint-Domingue. Roi_axolotl1er fait cependant comprendre à Baron que les pirates veulent rejoindre la Martinique, où ils disposent de contacts et affirment bénéficier de la protection du gouverneur. Baron négocie alors avec Tickal86 pour que la frégate fasse une escale et dépose son groupe à Saint-Pierre.",
+      "La dernière partie du voyage n’est pas totalement tranquille. Un navire sous pavillon anglais est aperçu près d’un bâtiment marchand français. La Bonne Fortune se porte à sa rencontre ; sa seule présence suffit finalement à faire fuir le bâtiment anglais, que Tickal86 choisit de ne pas poursuivre.",
+      "La frégate atteint finalement Saint-Pierre, en Martinique. Pour les compagnons, c’est la première fois depuis le naufrage qu’ils posent le pied dans une localité habitée des Antilles. La chasse-partie conclue sur l’île arrive alors à son terme et une nouvelle question se pose : se séparer des pirates, conserver deux équipages alliés ou ne plus former qu’un seul groupe.",
+      "Après discussion, les quatre compagnons choisissent de fusionner avec l’équipage de Roi_axolotl1er. Une nouvelle chasse-partie formalise cet accord et organise la place de chacun dans le nouvel équipage.",
+      "Swananoux accepte de quitter sa fonction de quartier-maître pour la laisser à Baron Bayard, qui devient ainsi le représentant des marins et l’un des principaux conseillers de Roi_axolotl1er. Le précédent second du capitaine étant mort sur l’île, Aldry passe plusieurs tests de connaissances et de pratique nautiques avant d’être nommé second, chargé notamment du bon fonctionnement quotidien du navire et des manœuvres.",
+      "Anduin demande de son côté à se rapprocher du canonnier afin de poursuivre son apprentissage. Sa motivation convainc Fireman_fr, le canonnier de l’équipage, de le prendre sous son aile. Anduin n’est donc pas encore canonnier, mais franchit une nouvelle étape vers le poste qu’il convoite.",
+      "Baron propose enfin aux anciens survivants du Saint-Michel de les suivre dans cette nouvelle vie. Dorak Maugemeur, Chad, Accra, Darlingsamaa, Nelya_kitsune et Justlne choisissent de rester avec le groupe. paff59, lui, ne les suit pas ; son avenir après leur séparation à Saint-Pierre reste inconnu.",
+      "La session se termine sur la clôture de cette première grande mission. Les compagnons ont enfin atteint les Caraïbes, mais ils ne sont plus l’équipage marchand parti de Saint-Malo : ils appartiennent désormais à un véritable équipage pirate."
+    ],
+    "evenements": [
+      "Roi_axolotl1er et Swananoux sont identifiés comme capitaine et quartier-maître de l’équipage pirate",
+      "Le sloop pirate est incendié pendant la nuit ; l’auteur de l’incendie reste inconnu",
+      "Les attaques contre le camp se multiplient et les ressources s’épuisent",
+      "berl_uue est tué lors d’un assaut",
+      "Dorak précise que les îles exactes où le groupe a échoué ne sont pas cartographiées",
+      "La frégate française La Bonne Fortune arrive près de l’île",
+      "Darlingsamaa tue Tenqneoo avant l’arrivée des militaires français",
+      "Tickal86, capitaine de La Bonne Fortune, recueille les survivants",
+      "Baron obtient que La Bonne Fortune les dépose à Saint-Pierre en Martinique",
+      "Un navire sous pavillon anglais réapparaît pendant la dernière partie du voyage",
+      "La Bonne Fortune intervient auprès d’un bâtiment français et le navire anglais prend la fuite",
+      "Le groupe atteint Saint-Pierre en Martinique",
+      "Les compagnons choisissent de fusionner avec l’équipage de Roi_axolotl1er",
+      "Baron Bayard devient quartier-maître du nouvel équipage",
+      "Aldry Baratte devient second",
+      "Fireman_fr prend Anduin sous son aile pour sa formation de canonnier",
+      "Dorak, Chad, Accra, Darlingsamaa, Nelya_kitsune et Justlne suivent le groupe",
+      "paff59 ne rejoint pas le nouvel équipage pirate"
+    ],
+    "personnages": [
+      "solenn-brissac",
+      "baron-bayard",
+      "anduin-marleau",
+      "aldry-barat"
+    ],
+    "pnj": [
+      "roi-axolotl1er",
+      "swananoux",
+      "tickal86",
+      "fireman-fr",
+      "dorak-mojomeurs",
+      "tank-neo",
+      "darling-sama",
+      "berluue",
+      "paff",
+      "chad",
+      "accra",
+      "nelya-kitsune",
+      "justlne"
+    ],
+    "lore": [
+      "iles-vierges",
+      "habitants-autochtones",
+      "sloop-sans-pavillon",
+      "chasse-partie",
+      "bonne-fortune",
+      "fregate-anglaise",
+      "saint-pierre-martinique"
+    ],
+    "coulisses": [
+      "Le public a choisi « Le retour des Anglais ! » pour la dernière ligne droite. L’autre possibilité était « Restons tranquilles... ».",
+      "La Session 05 marque la fin de la première moitié de la Saison 1. Le JDR fait ensuite une pause de quelques semaines avant la reprise."
+    ],
+    "finTitre": "Bienvenue dans les Caraïbes",
+    "finTexte": "À Saint-Pierre, les anciens survivants du Saint-Michel choisissent de rejoindre durablement l’équipage de Roi_axolotl1er. Baron devient quartier-maître, Aldry second, et la première moitié de la Saison 1 s’achève sur cette nouvelle vie pirate."
   }
 ];
