@@ -58,6 +58,13 @@ window.PAVILLON_COULISSES = {
       "gagnant": "Fuck l’autorité !",
       "autre": "On écoute le chef",
       "consequence": "Le choix du public accompagne le basculement des survivants contre l’autorité de Tenqneoo et leur soutien à la position défendue par Baron."
+    },
+    {
+      "session": "Session 05",
+      "question": "Dernière ligne droite...",
+      "gagnant": "Le retour des Anglais !",
+      "autre": "Restons tranquilles...",
+      "consequence": "Le choix du public fait apparaître un navire sous pavillon anglais près d’un bâtiment français pendant la dernière partie du voyage. La Bonne Fortune intervient et l’Anglais prend finalement la fuite."
     }
   ],
   "illustrations": [
@@ -97,6 +104,18 @@ window.PAVILLON_COULISSES = {
     {
       "titre": "Forêt — Session 04",
       "image": "assets/session-04-foret.jpg"
+    },
+    {
+      "titre": "Forêt — Session 05",
+      "image": "assets/session-05-foret.jpg"
+    },
+    {
+      "titre": "Carte des Petites Antilles — Session 05",
+      "image": "assets/session-05-carte-petites-antilles.webp"
+    },
+    {
+      "titre": "Saint-Pierre — Session 05",
+      "image": "assets/session-05-saint-pierre.jpg"
     }
   ]
 };
