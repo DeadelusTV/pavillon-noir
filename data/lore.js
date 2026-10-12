@@ -103,21 +103,22 @@ window.PAVILLON_LORE = [
     "id": "fregate-anglaise",
     "categorie": "Navires",
     "titre": "La frégate anglaise",
-    "sousTitre": "Navire sous pavillon anglais · Session 02",
+    "sousTitre": "Menace sous pavillon anglais · Sessions 02 et 05",
     "resume": "Une frégate sous pavillon anglais attaque le Saint-Michel alors que la France et l’Angleterre ne sont pas officiellement en guerre.",
     "details": [
       "Le bâtiment se rapproche du Saint-Michel après avoir semblé vouloir le dépasser.",
       "Une salve de mitraille frappe le pont du Saint-Michel.",
       "Avant de prendre de la distance, Anduin touche sa mâture avec un boulet chaîné sans parvenir à l’abattre.",
       "Au début de la Session 03, le bâtiment anglais cesse finalement de poursuivre le Saint-Michel.",
-      "Le sloop rencontré devant le Saint-Michel affirme avoir lui aussi été pris en chasse par ce navire anglais."
+      "Le sloop rencontré devant le Saint-Michel affirme avoir lui aussi été pris en chasse par ce navire anglais.",
+      "Pendant la Session 05, un navire sous pavillon anglais apparaît près d’un bâtiment marchand français. La Bonne Fortune intervient et l’Anglais prend la fuite sans être poursuivi."
     ]
   },
   {
     "id": "sloop-sans-pavillon",
     "categorie": "Navires",
     "titre": "Le sloop sans pavillon",
-    "sousTitre": "Sloop pirate français · Sessions 02 à 04",
+    "sousTitre": "Sloop pirate français · Sessions 02 à 05",
     "resume": "Le sloop rencontré avant le naufrage appartient bien à un équipage de pirates français. Retrouvés sur l’île après la tempête, ses hommes concluent finalement une chasse-partie avec les survivants du Saint-Michel.",
     "details": [
       "Sa voilure est déjà en mauvais état lors de la première rencontre et son équipage paraît beaucoup trop nombreux pour un bâtiment de cette taille.",
@@ -126,20 +127,22 @@ window.PAVILLON_LORE = [
       "Après la tempête, le sloop est retrouvé échoué ou immobilisé près d’un campement fortifié sur la même île que les survivants du Saint-Michel.",
       "La Session 04 confirme que son équipage est composé de pirates français.",
       "Les deux groupes combattent le même jour contre les habitants autochtones, puis commencent à négocier une alliance.",
-      "Une chasse-partie finit par lier les deux équipages jusqu’à leur arrivée dans un port français."
+      "Une chasse-partie finit par lier les deux équipages jusqu’à leur arrivée dans un port français.",
+      "Pendant les premiers jours de l’alliance sur l’île, le sloop est incendié au cours de la nuit. Personne ne voit directement l’auteur de l’incendie et sa cause reste inconnue."
     ]
   },
   {
     "id": "iles-vierges",
     "categorie": "Lieux",
     "titre": "Les Îles Vierges",
-    "sousTitre": "Archipel au sud des Antilles",
-    "resume": "Après le naufrage, les connaissances réunies par le groupe et Dorak les amènent à estimer qu’ils se trouvent dans les Îles Vierges.",
+    "sousTitre": "Zone estimée du naufrage · îles exactes non cartographiées",
+    "resume": "Après le naufrage, Dorak et les autres situent approximativement leur position dans la zone des Îles Vierges. La Session 05 précise toutefois que les îles exactes où ils ont échoué ne sont pas cartographiées.",
     "details": [
       "L’île du naufrage est relativement vaste, avec un petit massif volcanique, des grottes, des zones forestières et des marécages.",
       "D’autres terres sont visibles à l’horizon depuis les hauteurs.",
       "Les connaissances théoriques du groupe leur laissent d’abord penser que ces îles ne sont occupées par aucune puissance connue.",
-      "Une colonne de fumée puis la rencontre avec des habitants autochtones montrent cependant que l’île est habitée."
+      "Une colonne de fumée puis la rencontre avec des habitants autochtones montrent cependant que l’île est habitée.",
+      "Pendant la Session 05, Dorak précise que les îles exactes où le groupe a échoué ne figurent pas sur leurs cartes."
     ]
   },
   {
@@ -201,7 +204,36 @@ window.PAVILLON_LORE = [
       "Rompre volontairement un tel accord expose un pirate à perdre sa réputation et donc une partie de sa capacité à traiter avec les autres.",
       "La chasse-partie signée par Baron et les pirates engage les deux équipages à se soutenir et à ne pas se trahir.",
       "Cet accord reste valable jusqu’à ce qu’ils atteignent un port français.",
-      "Les deux groupes n’ont pas besoin d’être amis : l’objectif est surtout d’assumer publiquement leur association et de soutenir l’initiative de l’autre tant que le contrat s’applique."
+      "Les deux groupes n’ont pas besoin d’être amis : l’objectif est surtout d’assumer publiquement leur association et de soutenir l’initiative de l’autre tant que le contrat s’applique.",
+      "À Saint-Pierre, les compagnons choisissent de fusionner avec l’équipage de Roi_axolotl1er et une nouvelle chasse-partie formalise cette organisation commune."
+    ]
+  },
+  {
+    "id": "bonne-fortune",
+    "categorie": "Navires",
+    "titre": "La Bonne Fortune",
+    "sousTitre": "Frégate militaire française · Session 05",
+    "resume": "Frégate militaire française commandée par Tickal86. Elle recueille les survivants et les pirates sur l’île avant de les conduire jusqu’à Saint-Pierre en Martinique.",
+    "details": [
+      "Le navire arrive alors que le camp est épuisé par plusieurs jours d’attaques et manque de ressources.",
+      "Son équipage militaire incorpore immédiatement les nouveaux venus aux tâches du bord.",
+      "Solenn y est particulièrement utile en raison du manque de véritable chirurgien, tandis que Dorak est apprécié pour ses compétences de pilote.",
+      "La Bonne Fortune doit poursuivre vers Saint-Domingue, mais Baron obtient de Tickal86 une escale à Saint-Pierre.",
+      "Sur la route, elle se porte au secours d’un bâtiment français menacé par un navire sous pavillon anglais, qui prend finalement la fuite."
+    ]
+  },
+  {
+    "id": "saint-pierre-martinique",
+    "categorie": "Lieux",
+    "titre": "Saint-Pierre",
+    "sousTitre": "Martinique · Session 05",
+    "resume": "Première localité habitée des Antilles atteinte par les compagnons après le naufrage. C’est à Saint-Pierre que leur alliance de circonstance avec les pirates devient une véritable vie d’équipage.",
+    "details": [
+      "Baron obtient de La Bonne Fortune qu’elle fasse escale à Saint-Pierre pour y déposer son groupe.",
+      "Les compagnons y discutent de leur avenir avec Roi_axolotl1er.",
+      "Ils choisissent finalement de fusionner avec l’équipage pirate plutôt que de se séparer ou de conserver deux équipages distincts.",
+      "Baron devient quartier-maître, Aldry second et Anduin commence son apprentissage auprès de Fireman_fr.",
+      "paff59 choisit de ne pas suivre le groupe ; la suite de son parcours reste inconnue."
     ]
   }
 ];
