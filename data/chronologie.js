@@ -160,5 +160,41 @@ window.PAVILLON_CHRONOLOGIE = [
     "titre": "Vers le camp des pirates",
     "texte": "Les survivants abandonnent leur campement pour rejoindre celui des pirates. Tenqneoo, sévèrement blessé mais vivant, est transporté sur un brancard.",
     "lien": "#session-04"
+  },
+  {
+    "annee": "1715 · Îles non cartographiées",
+    "titre": "Le sloop incendié",
+    "texte": "Pendant la nuit, le sloop pirate prend feu. Personne ne voit directement qui provoque l’incendie et sa cause reste inconnue.",
+    "lien": "#lore-sloop-sans-pavillon"
+  },
+  {
+    "annee": "1715 · Îles non cartographiées",
+    "titre": "Le siège de l’île",
+    "texte": "Les attaques se multiplient, les réserves s’épuisent et l’accès à l’eau devient de plus en plus dangereux. berl_uue est tué lors d’un assaut.",
+    "lien": "#session-05"
+  },
+  {
+    "annee": "1715 · Îles non cartographiées",
+    "titre": "L’arrivée de La Bonne Fortune",
+    "texte": "Une frégate militaire française commandée par Tickal86 arrive enfin près du camp. Juste avant le sauvetage, Darlingsamaa tue Tenqneoo afin qu’il ne puisse pas témoigner.",
+    "lien": "#lore-bonne-fortune"
+  },
+  {
+    "annee": "1715 · Petites Antilles",
+    "titre": "Le retour des Anglais",
+    "texte": "Un bâtiment sous pavillon anglais apparaît près d’un navire marchand français. La Bonne Fortune intervient et l’Anglais prend la fuite.",
+    "lien": "#session-05"
+  },
+  {
+    "annee": "1715 · Martinique",
+    "titre": "Saint-Pierre",
+    "texte": "Baron obtient de La Bonne Fortune une escale à Saint-Pierre, où les compagnons posent enfin le pied dans une localité habitée des Antilles.",
+    "lien": "#lore-saint-pierre-martinique"
+  },
+  {
+    "annee": "1715 · Martinique",
+    "titre": "Un seul équipage",
+    "texte": "Les compagnons choisissent de fusionner avec l’équipage de Roi_axolotl1er. Baron devient quartier-maître, Aldry second et Anduin commence sa formation auprès de Fireman_fr.",
+    "lien": "#session-05"
   }
 ];
