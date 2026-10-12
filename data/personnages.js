@@ -7,7 +7,7 @@ window.PAVILLON_PERSONNAGES = [
     "fiche": "assets/fiche_solenn.png",
     "nom": "Solenn Brissac",
     "surnom": "Lame-de-rhum",
-    "role": "Chirurgienne du Saint-Michel",
+    "role": "Chirurgienne de l’équipage pirate",
     "origine": "Brest",
     "age": "Non précisé",
     "resume": "Chirurgienne diplômée formée à Brest, aussi à l’aise face au sang et aux blessures qu’avec une bouteille de rhum, toujours accompagnée de son perroquet Ratafia.",
@@ -53,6 +53,10 @@ window.PAVILLON_PERSONNAGES = [
       {
         "session": "Session 04",
         "texte": "Réveillée en urgence pendant l’embuscade, soigne Baron et Aldry puis participe au combat sur la plage. Elle prend ensuite en charge Tenqneoo après la rupture avec l’équipage ; il survit, mais conserve une grave séquelle pulmonaire."
+      },
+      {
+        "session": "Session 05",
+        "texte": "Soigne les blessés pendant les derniers jours sur l’île puis devient particulièrement précieuse à bord de La Bonne Fortune, qui manque de véritable chirurgien. À Saint-Pierre, elle rejoint avec les autres l’équipage pirate fusionné."
       }
     ]
   },
@@ -61,7 +65,7 @@ window.PAVILLON_PERSONNAGES = [
     "fiche": "assets/fiche_baron.png",
     "nom": "Baron Bayard",
     "nomComplet": "Jean-Nicolas Marie de Paladru dit Baron Bayard",
-    "role": "Aspirant de marine",
+    "role": "Quartier-maître de l’équipage pirate",
     "origine": "Isère",
     "age": "24 ans",
     "resume": "Noble savoyard de 24 ans, élégant et charismatique, qui quitte une jeunesse agitée et les responsabilités de son rang pour chercher l’aventure et la liberté dans la marine marchande.",
@@ -108,6 +112,10 @@ window.PAVILLON_PERSONNAGES = [
       {
         "session": "Session 04",
         "texte": "Organise le repli après l’embuscade, défend publiquement une alliance avec les pirates et voit la majorité des marins se ranger derrière lui plutôt que Tenqneoo. Sans devenir chef officiel, il devient leur principale figure d’autorité et signe la chasse-partie avec les pirates."
+      },
+      {
+        "session": "Session 05",
+        "texte": "Participe à l’organisation de la défense, négocie avec Tickal86 le sauvetage puis une escale à Saint-Pierre, et choisit finalement de fusionner avec l’équipage de Roi_axolotl1er. Swananoux lui cède alors la fonction de quartier-maître."
       }
     ]
   },
@@ -155,6 +163,10 @@ window.PAVILLON_PERSONNAGES = [
       {
         "session": "Session 04",
         "texte": "Participe à l’affrontement contre les habitants autochtones sur la plage et est blessé au bras gauche. Lors de la négociation finale, il se place à distance avec son mousquet afin de couvrir Baron et Aldry."
+      },
+      {
+        "session": "Session 05",
+        "texte": "Survit aux derniers jours d’attaques sur l’île puis rejoint l’équipage pirate fusionné à Saint-Pierre. Il demande à poursuivre sa formation auprès du canonnier Fireman_fr, qui accepte de le prendre sous son aile."
       }
     ]
   },
@@ -162,7 +174,7 @@ window.PAVILLON_PERSONNAGES = [
     "id": "aldry-barat",
     "fiche": "assets/fiche_aldry.png",
     "nom": "Aldry Baratte",
-    "role": "Gabier",
+    "role": "Second de l’équipage pirate",
     "origine": "Non précisée",
     "age": "21 ans",
     "resume": "Marin déjà expérimenté, spécialisé dans les manœuvres des voiles et assez opportuniste pour faire d'une bagarre une excellente diversion.",
@@ -208,6 +220,10 @@ window.PAVILLON_PERSONNAGES = [
       {
         "session": "Session 04",
         "texte": "Reçoit une flèche à la jambe pendant le repli, puis part en éclaireur lors de l’exploration de la côte et découvre les marins assiégés. Blessé de nouveau pendant le combat, il accompagne ensuite Baron comme second émissaire lors de la négociation avec les pirates."
+      },
+      {
+        "session": "Session 05",
+        "texte": "Après la survie sur l’île et le passage à bord de La Bonne Fortune, il choisit de rejoindre l’équipage de Roi_axolotl1er. Ses compétences nautiques convainquent le capitaine de le nommer second, le précédent titulaire étant mort sur l’île."
       }
     ]
   }
