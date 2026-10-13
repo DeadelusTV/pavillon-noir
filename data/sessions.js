@@ -379,6 +379,7 @@ window.PAVILLON_SESSIONS = [
     "imageAlt": "Forêt sombre utilisée comme décor au début de la Session 05",
     "imageFin": "assets/session-05-saint-pierre.jpg",
     "imageFinAlt": "Vue ancienne de Saint-Pierre en Martinique utilisée pendant la Session 05",
+    "imageFinCrop": false,
     "illustrations": [
       {
         "image": "assets/session-05-foret.jpg",
