@@ -274,7 +274,12 @@ function renderSession(session) {
             ${session.finTitre ? `<h2>${escapeHtml(session.finTitre)}</h2>` : ""}
             ${session.finTexte ? `<p>${escapeHtml(session.finTexte)}</p>` : ""}
           </div>
-          ${session.imageFin ? imageFigure(session.imageFin, session.imageFinAlt || "", "Illustration utilisée pendant la session.", true) : ""}
+          ${session.imageFin ? imageFigure(
+  session.imageFin,
+  session.imageFinAlt || "",
+  "Illustration utilisée pendant la session.",
+  session.imageFinCrop !== false
+) : ""}
         </section>
       ` : ""}
     </section>
